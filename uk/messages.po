@@ -2065,11 +2065,11 @@ msgstr "Увійти через Діскорд"
 
 #: src/components/_user/auth/ConnectFromModal.tsx:285
 msgid "Connect with email code"
-msgstr "Приєднатись через електронну пошту"
+msgstr "Увійти через електронну пошту"
 
 #: src/components/_user/auth/ConnectFromModal.tsx:312
 msgid "Connect with Google"
-msgstr "Приєднатись через Google"
+msgstr "Увійти через Google"
 
 #: src/pages/user/[userId]/bans.tsx:254
 msgid "Connection"
