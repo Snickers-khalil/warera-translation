@@ -1500,7 +1500,7 @@ msgstr "Articolele lui <0/>"
 msgid "At least you tried"
 msgstr "Măcar ai încercat"
 
-#: src/components/_military/battle/BattleSystem.tsx:624
+#: src/components/_military/battle/BattleSystem.tsx:625
 msgid "At the end of the timer <0>{actualTickPoints}</0> will be assigned to the side with the most damages."
 msgstr "La sfârșitul timpului, partea cu cele mai multe daune cauzate va câștiga <0>{actualTickPoints}</0>."
 
@@ -1726,12 +1726,12 @@ msgstr "Îmbunătățește-ți producția!"
 msgid "Boots"
 msgstr "Cizme"
 
-#: src/components/_military/battle/BattleSystem.tsx:859
-#: src/components/_military/battle/BattleSystem.tsx:869
+#: src/components/_military/battle/BattleSystem.tsx:860
+#: src/components/_military/battle/BattleSystem.tsx:870
 msgid "Bounty cooldown"
 msgstr "Timp de așteptare recompensă"
 
-#: src/components/_military/battle/BattleSystem.tsx:845
+#: src/components/_military/battle/BattleSystem.tsx:846
 msgid "Bounty will be available in"
 msgstr "Recompensă disponibilă în"
 
@@ -2497,11 +2497,11 @@ msgstr "Arbaletă"
 msgid "Current Military Unit"
 msgstr "Unitate Militară Actuală"
 
-#: src/components/_military/battle/BattleSystem.tsx:643
+#: src/components/_military/battle/BattleSystem.tsx:644
 msgid "Current tick:"
 msgstr "Valoare tic actual:"
 
-#: src/components/_military/battle/BattleSystem.tsx:633
+#: src/components/_military/battle/BattleSystem.tsx:634
 msgid "Current total:"
 msgstr "Total până acum:"
 
@@ -2996,7 +2996,7 @@ msgstr "Cost promulgare"
 msgid "Enchanted Trousers"
 msgstr "Enchanted Trousers"
 
-#: src/components/_military/battle/BattleSystem.tsx:752
+#: src/components/_military/battle/BattleSystem.tsx:753
 msgid "Ended"
 msgstr "Încheiată"
 
@@ -3059,8 +3059,8 @@ msgstr "Eroare"
 msgid "Estimated benefit per"
 msgstr "Beneficiu estimat per"
 
-#: src/components/_military/battle/BattleSystem.tsx:475
-#: src/components/_military/battle/BattleSystem.tsx:512
+#: src/components/_military/battle/BattleSystem.tsx:476
+#: src/components/_military/battle/BattleSystem.tsx:513
 msgid "Estimated minimum time for this side to win the current round if all ticks are won."
 msgstr "Timp minim estimat ca această parte să câștige runda, dacă păstrează dominanța câștigând tot terenul."
 
@@ -3477,7 +3477,7 @@ msgstr "Guvern"
 msgid "Government Member"
 msgstr "Membru guvern"
 
-#: src/components/_military/battle/BattleSystem.tsx:819
+#: src/components/_military/battle/BattleSystem.tsx:820
 msgid "Government penalty"
 msgstr "Penalizare guvern"
 
@@ -3569,7 +3569,7 @@ msgstr ""
 msgid "Ground"
 msgstr "Teren"
 
-#: src/components/_military/battle/BattleSystem.tsx:682
+#: src/components/_military/battle/BattleSystem.tsx:683
 msgid "ground per tick"
 msgstr "teren per tic"
 
@@ -3636,7 +3636,7 @@ msgid "Hit <0>{count}</0> times in battles"
 msgstr "Lovește de <0>{count}</0> ori în lupte"
 
 #. placeholder {0}: staticGameConfig.battle.govMemberBountyRewardPercent
-#: src/components/_military/battle/BattleSystem.tsx:821
+#: src/components/_military/battle/BattleSystem.tsx:822
 msgid "Hitting for your own country while in government gives {0}% bounty efficiency."
 msgstr "Loviturile pentru țara ta, cât timp ești membru al guvernului, sunt răsplătite la un factor de {0}%"
 
@@ -4584,7 +4584,7 @@ msgstr "Mitic?! Contul tău e binecuvântat"
 msgid "Name"
 msgstr "Nume"
 
-#: src/components/_military/battle/BattleSystem.tsx:807
+#: src/components/_military/battle/BattleSystem.tsx:808
 msgid "National bounty"
 msgstr "Răsplată națională"
 
@@ -4718,7 +4718,7 @@ msgstr "Următorul va fi tanc"
 msgid "Next reward"
 msgstr "Următorul premiu"
 
-#: src/components/_military/battle/BattleSystem.tsx:619
+#: src/components/_military/battle/BattleSystem.tsx:620
 msgid "Next tick"
 msgstr "Următorul tic"
 
@@ -5994,8 +5994,8 @@ msgstr "Runda pe cale să se termine"
 msgid "Round ended"
 msgstr "Runda s-a încheiat"
 
-#: src/components/_military/battle/BattleSystem.tsx:473
-#: src/components/_military/battle/BattleSystem.tsx:510
+#: src/components/_military/battle/BattleSystem.tsx:474
+#: src/components/_military/battle/BattleSystem.tsx:511
 msgid "Round ETA"
 msgstr "Timp rămas estimat"
 
@@ -6741,7 +6741,7 @@ msgstr "Universul îți datorează ceva mai bun"
 msgid "This action will submit your MU bid for this contract."
 msgstr "Această acțiune trimite oferta UM tale pentru acest contract."
 
-#: src/components/_military/battle/BattleSystem.tsx:808
+#: src/components/_military/battle/BattleSystem.tsx:809
 msgid "This bounty is reserved for nationals only."
 msgstr "Răsplată doar pentru cetățenii țării."
 
@@ -6947,7 +6947,7 @@ msgstr "Top donatori ai lunii"
 msgid "Top of the hill"
 msgstr "Top of the hill"
 
-#: src/components/_military/battle/BattleSystem.tsx:673
+#: src/components/_military/battle/BattleSystem.tsx:674
 msgid "total"
 msgstr "total"
 
