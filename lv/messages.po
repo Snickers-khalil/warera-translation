@@ -672,12 +672,12 @@ msgid "<0>Emotes</0> in chat"
 msgstr "<0>Emotikoni</0> čatā"
 
 #. placeholder {0}: ts.case2
-#: src/components/_military/damageRanking/BattleLoot.tsx:62
+#: src/components/_military/damageRanking/BattleLoot.tsx:71
 msgid "<0>Every <1/> damage dealt in this round across both sides rolls an <2>{0}</2> into the round loot pool.</0><3>Round loot are distributed at the end of the round, top 1 damage dealer get top 1 item and so on...</3>"
 msgstr "<0>Katrs <1/> nodarītais bojājums šī raunda abās pusēs atver vienu <2>{0}</2> kopējā raunda balvu katlā.</0><3>Raunda iegūtās balvas tik izdalītas raunda beigās, top 1 bojājumu veicējs saņem top 1 ekipējumu un tā tālāk...</3>"
 
 #. placeholder {0}: ts.case2
-#: src/components/_military/damageRanking/BattleLoot.tsx:75
+#: src/components/_military/damageRanking/BattleLoot.tsx:84
 msgid "<0>Every <1/> total damage dealt across both sides rolls an <2>{0}</2> into the battle loot pool.</0><3>Battle loot are distributed at the end of the battle, top 1 damage dealer get top 1 item and so on...</3>"
 msgstr "<0>Katrs <1/> nodarītais bojājums šīs kaujas abās pusēs atver vienu <2>{0}</2> kopējā kaujas balvu katlā.</0><3>Kaujā iegūtās balvas tik izdalītas kaujas beigās, top 1 bojājumu veicējs saņem top 1 ekipējumu un tā tālāk...</3>"
 
@@ -1587,7 +1587,7 @@ msgstr "Automātiski rada <0>Ražošanas Punktus</0> laika gaitā, bez nepiecie�
 msgid "Automated engine"
 msgstr "Automatizētais dzinējs"
 
-#: src/components/_economy/work/WorkChart.tsx:234
+#: src/components/_economy/work/WorkChart.tsx:235
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:69
 msgid "Automated Engine"
 msgstr "Automatizētais Dzinējs"
@@ -1685,11 +1685,11 @@ msgstr "Kauja beidzās"
 msgid "Battle Hero"
 msgstr "Kaujas Varonis"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:60
+#: src/components/_military/damageRanking/BattleLoot.tsx:69
 msgid "Battle loot"
 msgstr "Kaujas laupījums"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:90
+#: src/components/_military/damageRanking/BattleLoot.tsx:99
 msgid "Battle loot pool"
 msgstr "Kaujas laupījumu katls"
 
@@ -1759,6 +1759,10 @@ msgstr "Palielini savu ražotspēju!"
 #: src/utils/translations.tsx:192
 msgid "Boots"
 msgstr "Zābaki"
+
+#: src/components/_military/damageRanking/BattleLoot.tsx:139
+msgid "Bounty"
+msgstr ""
 
 #: src/components/_military/battle/BattleSystem.tsx:844
 #: src/components/_military/battle/BattleSystem.tsx:854
@@ -2373,6 +2377,7 @@ msgstr "Līgums tika lauzts"
 #: src/components/_military/battle/BattleHeader.tsx:312
 #: src/components/_military/battle/BattlesHeader.tsx:43
 #: src/components/_military/battle/BattleSideContractsModal.tsx:47
+#: src/components/_military/damageRanking/BattleLoot.tsx:131
 #: src/components/_political/country/CountryHeader.tsx:132
 msgid "Contracts"
 msgstr "Līgumi"
@@ -2873,7 +2878,7 @@ msgstr "Izjaukts Ekipējums"
 msgid "Dismiss"
 msgstr "Aizvērt"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:97
+#: src/components/_military/damageRanking/BattleLoot.tsx:106
 msgid "Distributed"
 msgstr "Izdalīts"
 
@@ -3034,7 +3039,7 @@ msgstr "Violetā Ķivere"
 msgid "Elite Pants"
 msgstr "Violetās Bikses"
 
-#: src/components/_economy/work/WorkChart.tsx:213
+#: src/components/_economy/work/WorkChart.tsx:214
 msgid "Employee Production"
 msgstr "Strādnieku Ražošana"
 
@@ -3988,7 +3993,7 @@ msgstr "Iebliez <0>{count}</0> kritiskos triecienus"
 msgid "Language"
 msgstr "Valoda"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:116
+#: src/components/_military/damageRanking/BattleLoot.tsx:154
 msgid "Last"
 msgstr "Pēdējais"
 
@@ -4218,7 +4223,7 @@ msgstr "Laupījuma iespēja"
 msgid "Loot reward"
 msgstr "Laupījums"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:130
+#: src/components/_military/damageRanking/BattleLoot.tsx:168
 msgid "Loots"
 msgstr "Laupījumi"
 
@@ -4398,6 +4403,10 @@ msgstr "Algotņu līgumi"
 #: src/components/_military/mercenaryContract/MercenaryContractsDisabled.tsx:11
 msgid "Mercenary contracts are currently disabled."
 msgstr "Algotņu līgumi pagaidām ir izslēgti."
+
+#: src/components/_military/damageRanking/BattleLoot.tsx:125
+msgid "Mercenary earnings"
+msgstr ""
 
 #: src/components/_military/mercenaryContract/MercenaryReputationTooltip.tsx:15
 msgid "Mercenary Reputation"
@@ -6063,7 +6072,7 @@ msgstr "Raunds"
 msgid "Round {0}"
 msgstr "Raunds {0}"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:90
+#: src/components/_military/damageRanking/BattleLoot.tsx:99
 msgid "Round {roundNumber} loot pool"
 msgstr "Raunda {roundNumber} laupījuma katls"
 
@@ -6094,7 +6103,7 @@ msgstr "Raunda beigas"
 msgid "Round Hero"
 msgstr "Raunda Varonis"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:60
+#: src/components/_military/damageRanking/BattleLoot.tsx:69
 msgid "Round loot"
 msgstr "Raunda laupījums"
 
@@ -6210,7 +6219,7 @@ msgstr "Izvēlies priekšlikuma tipu"
 msgid "Select skin"
 msgstr "Izvēlies veidolu"
 
-#: src/components/_economy/work/WorkChart.tsx:223
+#: src/components/_economy/work/WorkChart.tsx:224
 #: src/components/_user/mission/mission.frontConfig.tsx:62
 msgid "Self Work"
 msgstr "Pašdarbs"
@@ -6661,7 +6670,7 @@ msgstr "Atbalsti spēli un spēsi ātri izjaukt ekipējumus!"
 msgid "Support us"
 msgstr "Atbalsti mūs"
 
-#: src/components/_economy/work/WorkChart.tsx:271
+#: src/components/_economy/work/WorkChart.tsx:291
 #: src/components/_ui/PremiumButtonTag.tsx:22
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:135
 msgid "Supporter"
@@ -6995,7 +7004,7 @@ msgstr "Negaisa Grāmata"
 msgid "Tome of Tides"
 msgstr "Paisuma Grāmata"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:124
+#: src/components/_military/damageRanking/BattleLoot.tsx:162
 #: src/components/_social/ArticleList.tsx:181
 msgid "Top"
 msgstr "Labākie"
@@ -7057,7 +7066,7 @@ msgstr "kopā"
 #: src/components/_economy/inventoryAccount/InventoryAccount.tsx:180
 #: src/components/_economy/itemTrading/TradingOrders.tsx:66
 #: src/components/_economy/itemTrading/TradingOrders.tsx:93
-#: src/components/_economy/work/WorkChart.tsx:198
+#: src/components/_economy/work/WorkChart.tsx:199
 #: src/components/_military/mu/MuMemberList.tsx:190
 #: src/components/_user/user/WealthPanel.tsx:28
 #: src/pages/market/index.tsx:153
@@ -7531,7 +7540,7 @@ msgid "VS"
 msgstr "pret"
 
 #: src/components/_economy/transaction/TransactionList.tsx:73
-#: src/components/_economy/work/WorkChart.tsx:244
+#: src/components/_economy/work/WorkChart.tsx:245
 msgid "Wage"
 msgstr "Alga"
 

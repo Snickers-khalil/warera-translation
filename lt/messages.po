@@ -672,12 +672,12 @@ msgid "<0>Emotes</0> in chat"
 msgstr "<0>Jaustukai</0> pokalbyje"
 
 #. placeholder {0}: ts.case2
-#: src/components/_military/damageRanking/BattleLoot.tsx:62
+#: src/components/_military/damageRanking/BattleLoot.tsx:71
 msgid "<0>Every <1/> damage dealt in this round across both sides rolls an <2>{0}</2> into the round loot pool.</0><3>Round loot are distributed at the end of the round, top 1 damage dealer get top 1 item and so on...</3>"
 msgstr "<0>Už kiekvieną šiame raunde abiejų pusių padarytą <1/> žalos į raundo fondą pridedama po <2>{0}</2>.</0><3>Fondas išdalijamas raundo pabaigoje: daugiausia žalos padaręs žaidėjas gauna 1-ą daiktą, antras pagal žalą - 2-ą ir t. t....</3>"
 
 #. placeholder {0}: ts.case2
-#: src/components/_military/damageRanking/BattleLoot.tsx:75
+#: src/components/_military/damageRanking/BattleLoot.tsx:84
 msgid "<0>Every <1/> total damage dealt across both sides rolls an <2>{0}</2> into the battle loot pool.</0><3>Battle loot are distributed at the end of the battle, top 1 damage dealer get top 1 item and so on...</3>"
 msgstr "<0>Kas <1/> bendros abiejų pusių padarytos žalos į mūšio fondą pridedamas <2>{0}</2>.</0><3>Mūšio fondas išdalijamas mūšio pabaigoje: daugiausia žalos padaręs žaidėjas gauna 1-ąjį daiktą, antras - 2-ąjį ir t. t.</3>"
 
@@ -1587,7 +1587,7 @@ msgstr "Laikui bėgant automatiškai generuoja <0>gamybos taškus</0>, nereikia 
 msgid "Automated engine"
 msgstr "Automatizuotas variklis"
 
-#: src/components/_economy/work/WorkChart.tsx:234
+#: src/components/_economy/work/WorkChart.tsx:235
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:69
 msgid "Automated Engine"
 msgstr "Automatizuotas variklis"
@@ -1685,11 +1685,11 @@ msgstr "Mūšis baigėsi"
 msgid "Battle Hero"
 msgstr "Mūšio didvyris"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:60
+#: src/components/_military/damageRanking/BattleLoot.tsx:69
 msgid "Battle loot"
 msgstr "Mūšio grobis"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:90
+#: src/components/_military/damageRanking/BattleLoot.tsx:99
 msgid "Battle loot pool"
 msgstr "Mūšio grobio fondas"
 
@@ -1759,6 +1759,10 @@ msgstr "Padidink savo gamybą!"
 #: src/utils/translations.tsx:192
 msgid "Boots"
 msgstr "Batai"
+
+#: src/components/_military/damageRanking/BattleLoot.tsx:139
+msgid "Bounty"
+msgstr ""
 
 #: src/components/_military/battle/BattleSystem.tsx:844
 #: src/components/_military/battle/BattleSystem.tsx:854
@@ -2373,6 +2377,7 @@ msgstr "Sutartis atšaukta"
 #: src/components/_military/battle/BattleHeader.tsx:312
 #: src/components/_military/battle/BattlesHeader.tsx:43
 #: src/components/_military/battle/BattleSideContractsModal.tsx:47
+#: src/components/_military/damageRanking/BattleLoot.tsx:131
 #: src/components/_political/country/CountryHeader.tsx:132
 msgid "Contracts"
 msgstr "Kontraktai"
@@ -2873,7 +2878,7 @@ msgstr "Daikto išardymas"
 msgid "Dismiss"
 msgstr "Uždaryti"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:97
+#: src/components/_military/damageRanking/BattleLoot.tsx:106
 msgid "Distributed"
 msgstr "Išdalinta"
 
@@ -3034,7 +3039,7 @@ msgstr "Elitinis Šalmas"
 msgid "Elite Pants"
 msgstr "Elitinės Kelnės"
 
-#: src/components/_economy/work/WorkChart.tsx:213
+#: src/components/_economy/work/WorkChart.tsx:214
 msgid "Employee Production"
 msgstr "Darbuotojo gamyba"
 
@@ -3988,7 +3993,7 @@ msgstr "Suduok <0>{count}</0> kritinių smūgių"
 msgid "Language"
 msgstr "Kalba"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:116
+#: src/components/_military/damageRanking/BattleLoot.tsx:154
 msgid "Last"
 msgstr ""
 
@@ -4218,7 +4223,7 @@ msgstr "Grobio tikimybė"
 msgid "Loot reward"
 msgstr "Atlygis už grobį"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:130
+#: src/components/_military/damageRanking/BattleLoot.tsx:168
 msgid "Loots"
 msgstr "Grobiai"
 
@@ -4398,6 +4403,10 @@ msgstr "Samdinių sutartys"
 #: src/components/_military/mercenaryContract/MercenaryContractsDisabled.tsx:11
 msgid "Mercenary contracts are currently disabled."
 msgstr "Samdinių kontraktai šiuo metu išjungti."
+
+#: src/components/_military/damageRanking/BattleLoot.tsx:125
+msgid "Mercenary earnings"
+msgstr ""
 
 #: src/components/_military/mercenaryContract/MercenaryReputationTooltip.tsx:15
 msgid "Mercenary Reputation"
@@ -6063,7 +6072,7 @@ msgstr "Raundas"
 msgid "Round {0}"
 msgstr "Raundas {0}"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:90
+#: src/components/_military/damageRanking/BattleLoot.tsx:99
 msgid "Round {roundNumber} loot pool"
 msgstr "{roundNumber} raundo grobio fondas"
 
@@ -6094,7 +6103,7 @@ msgstr ""
 msgid "Round Hero"
 msgstr "Raundo herojus"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:60
+#: src/components/_military/damageRanking/BattleLoot.tsx:69
 msgid "Round loot"
 msgstr "Raundo grobis"
 
@@ -6210,7 +6219,7 @@ msgstr "Pasirinkite siūlymo tipą"
 msgid "Select skin"
 msgstr "Pasirinkite išvaizdą"
 
-#: src/components/_economy/work/WorkChart.tsx:223
+#: src/components/_economy/work/WorkChart.tsx:224
 #: src/components/_user/mission/mission.frontConfig.tsx:62
 msgid "Self Work"
 msgstr "Savarankiškas darbas"
@@ -6661,7 +6670,7 @@ msgstr "Paremkite žaidimą ir greitai išardykite daiktus!"
 msgid "Support us"
 msgstr "Paremkite mus"
 
-#: src/components/_economy/work/WorkChart.tsx:271
+#: src/components/_economy/work/WorkChart.tsx:291
 #: src/components/_ui/PremiumButtonTag.tsx:22
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:135
 msgid "Supporter"
@@ -6995,7 +7004,7 @@ msgstr "Audrų Tomas"
 msgid "Tome of Tides"
 msgstr "Potvynių Tomas"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:124
+#: src/components/_military/damageRanking/BattleLoot.tsx:162
 #: src/components/_social/ArticleList.tsx:181
 msgid "Top"
 msgstr "Populiariausi"
@@ -7057,7 +7066,7 @@ msgstr "iš viso"
 #: src/components/_economy/inventoryAccount/InventoryAccount.tsx:180
 #: src/components/_economy/itemTrading/TradingOrders.tsx:66
 #: src/components/_economy/itemTrading/TradingOrders.tsx:93
-#: src/components/_economy/work/WorkChart.tsx:198
+#: src/components/_economy/work/WorkChart.tsx:199
 #: src/components/_military/mu/MuMemberList.tsx:190
 #: src/components/_user/user/WealthPanel.tsx:28
 #: src/pages/market/index.tsx:153
@@ -7531,7 +7540,7 @@ msgid "VS"
 msgstr "prieš"
 
 #: src/components/_economy/transaction/TransactionList.tsx:73
-#: src/components/_economy/work/WorkChart.tsx:244
+#: src/components/_economy/work/WorkChart.tsx:245
 msgid "Wage"
 msgstr "Atlyginimas"
 

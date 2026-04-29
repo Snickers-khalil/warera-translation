@@ -670,12 +670,12 @@ msgid "<0>Emotes</0> in chat"
 msgstr "<0>Emoticoane</0> în chat"
 
 #. placeholder {0}: ts.case2
-#: src/components/_military/damageRanking/BattleLoot.tsx:62
+#: src/components/_military/damageRanking/BattleLoot.tsx:71
 msgid "<0>Every <1/> damage dealt in this round across both sides rolls an <2>{0}</2> into the round loot pool.</0><3>Round loot are distributed at the end of the round, top 1 damage dealer get top 1 item and so on...</3>"
 msgstr "<0>Fiecare <1/> daune totale în această rundă adaugă o <2>{0}</2> la prada rundei.</0><3>Prada e distribuită la sfârșitul rundei, locul 1 primind cel mai bun item, ș.a.m.d.</3>"
 
 #. placeholder {0}: ts.case2
-#: src/components/_military/damageRanking/BattleLoot.tsx:75
+#: src/components/_military/damageRanking/BattleLoot.tsx:84
 msgid "<0>Every <1/> total damage dealt across both sides rolls an <2>{0}</2> into the battle loot pool.</0><3>Battle loot are distributed at the end of the battle, top 1 damage dealer get top 1 item and so on...</3>"
 msgstr "<0>Fiecare <1/> daune totale adaugă o <2>{0}</2> la prada luptei.</0><3>Prada e distribuită la sfârșitul luptei, locul 1 primind cel mai bun item, ș.a.m.d.</3>"
 
@@ -1585,7 +1585,7 @@ msgstr "Generează automat <0>Puncte de Producție</0> de-a lungul timpului, fă
 msgid "Automated engine"
 msgstr "Motor automat"
 
-#: src/components/_economy/work/WorkChart.tsx:234
+#: src/components/_economy/work/WorkChart.tsx:235
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:69
 msgid "Automated Engine"
 msgstr "Motor Automat"
@@ -1683,11 +1683,11 @@ msgstr "Bătălia s-a încheiat"
 msgid "Battle Hero"
 msgstr "Eroul Luptei"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:60
+#: src/components/_military/damageRanking/BattleLoot.tsx:69
 msgid "Battle loot"
 msgstr "Prada luptei"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:90
+#: src/components/_military/damageRanking/BattleLoot.tsx:99
 msgid "Battle loot pool"
 msgstr "Prada luptei"
 
@@ -1757,6 +1757,10 @@ msgstr "Îmbunătățește-ți producția!"
 #: src/utils/translations.tsx:192
 msgid "Boots"
 msgstr "Cizme"
+
+#: src/components/_military/damageRanking/BattleLoot.tsx:139
+msgid "Bounty"
+msgstr ""
 
 #: src/components/_military/battle/BattleSystem.tsx:844
 #: src/components/_military/battle/BattleSystem.tsx:854
@@ -2371,6 +2375,7 @@ msgstr "Contract inversat"
 #: src/components/_military/battle/BattleHeader.tsx:312
 #: src/components/_military/battle/BattlesHeader.tsx:43
 #: src/components/_military/battle/BattleSideContractsModal.tsx:47
+#: src/components/_military/damageRanking/BattleLoot.tsx:131
 #: src/components/_political/country/CountryHeader.tsx:132
 msgid "Contracts"
 msgstr "Contracte"
@@ -2871,7 +2876,7 @@ msgstr "Dezmembrează obiect"
 msgid "Dismiss"
 msgstr "Închide"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:97
+#: src/components/_military/damageRanking/BattleLoot.tsx:106
 msgid "Distributed"
 msgstr "Distribuite"
 
@@ -3032,7 +3037,7 @@ msgstr "Cască de elită"
 msgid "Elite Pants"
 msgstr "Pantaloni de elită"
 
-#: src/components/_economy/work/WorkChart.tsx:213
+#: src/components/_economy/work/WorkChart.tsx:214
 msgid "Employee Production"
 msgstr "Producția Angajaților"
 
@@ -3986,7 +3991,7 @@ msgstr "Dă <0>{count}</0> lovituri critice"
 msgid "Language"
 msgstr "Limbă"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:116
+#: src/components/_military/damageRanking/BattleLoot.tsx:154
 msgid "Last"
 msgstr "Ultimul"
 
@@ -4216,7 +4221,7 @@ msgstr "Șansă pradă"
 msgid "Loot reward"
 msgstr "Pradă"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:130
+#: src/components/_military/damageRanking/BattleLoot.tsx:168
 msgid "Loots"
 msgstr "Pradă"
 
@@ -4396,6 +4401,10 @@ msgstr "Contracte mercenar"
 #: src/components/_military/mercenaryContract/MercenaryContractsDisabled.tsx:11
 msgid "Mercenary contracts are currently disabled."
 msgstr "Contractele pentru mercenari sunt dezactivate momentan."
+
+#: src/components/_military/damageRanking/BattleLoot.tsx:125
+msgid "Mercenary earnings"
+msgstr ""
 
 #: src/components/_military/mercenaryContract/MercenaryReputationTooltip.tsx:15
 msgid "Mercenary Reputation"
@@ -6061,7 +6070,7 @@ msgstr "Runda"
 msgid "Round {0}"
 msgstr "Runda {0}"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:90
+#: src/components/_military/damageRanking/BattleLoot.tsx:99
 msgid "Round {roundNumber} loot pool"
 msgstr "Pradă runda {roundNumber}"
 
@@ -6092,7 +6101,7 @@ msgstr "Timp rămas estimat"
 msgid "Round Hero"
 msgstr "Eroul Rundei"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:60
+#: src/components/_military/damageRanking/BattleLoot.tsx:69
 msgid "Round loot"
 msgstr "Pradă rundă"
 
@@ -6208,7 +6217,7 @@ msgstr "Selectează tip moțiune"
 msgid "Select skin"
 msgstr "Selectează skin"
 
-#: src/components/_economy/work/WorkChart.tsx:223
+#: src/components/_economy/work/WorkChart.tsx:224
 #: src/components/_user/mission/mission.frontConfig.tsx:62
 msgid "Self Work"
 msgstr "Antreprenoriat"
@@ -6659,7 +6668,7 @@ msgstr "Sprijină jocul și demontează rapid obiecte!"
 msgid "Support us"
 msgstr "Susține-ne"
 
-#: src/components/_economy/work/WorkChart.tsx:271
+#: src/components/_economy/work/WorkChart.tsx:291
 #: src/components/_ui/PremiumButtonTag.tsx:22
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:135
 msgid "Supporter"
@@ -6993,7 +7002,7 @@ msgstr ""
 msgid "Tome of Tides"
 msgstr ""
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:124
+#: src/components/_military/damageRanking/BattleLoot.tsx:162
 #: src/components/_social/ArticleList.tsx:181
 msgid "Top"
 msgstr "Top"
@@ -7055,7 +7064,7 @@ msgstr "total"
 #: src/components/_economy/inventoryAccount/InventoryAccount.tsx:180
 #: src/components/_economy/itemTrading/TradingOrders.tsx:66
 #: src/components/_economy/itemTrading/TradingOrders.tsx:93
-#: src/components/_economy/work/WorkChart.tsx:198
+#: src/components/_economy/work/WorkChart.tsx:199
 #: src/components/_military/mu/MuMemberList.tsx:190
 #: src/components/_user/user/WealthPanel.tsx:28
 #: src/pages/market/index.tsx:153
@@ -7529,7 +7538,7 @@ msgid "VS"
 msgstr "VS"
 
 #: src/components/_economy/transaction/TransactionList.tsx:73
-#: src/components/_economy/work/WorkChart.tsx:244
+#: src/components/_economy/work/WorkChart.tsx:245
 msgid "Wage"
 msgstr "Salariu"
 

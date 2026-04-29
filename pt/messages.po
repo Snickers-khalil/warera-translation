@@ -672,12 +672,12 @@ msgid "<0>Emotes</0> in chat"
 msgstr "<0>Emotes</0> no chat"
 
 #. placeholder {0}: ts.case2
-#: src/components/_military/damageRanking/BattleLoot.tsx:62
+#: src/components/_military/damageRanking/BattleLoot.tsx:71
 msgid "<0>Every <1/> damage dealt in this round across both sides rolls an <2>{0}</2> into the round loot pool.</0><3>Round loot are distributed at the end of the round, top 1 damage dealer get top 1 item and so on...</3>"
 msgstr "Cada <1/> dano infligido nesta ronda por ambas as equipas adiciona uma <2>{0}</2> ao lote de recompensas da ronda.</0><3> O loot da ronda é distribuído no final da ronda: o jogador com mais dano recebe o item mais valioso, o segundo com mais dano recebe o segundo item mais valioso, e assim sucessivamente...</3>"
 
 #. placeholder {0}: ts.case2
-#: src/components/_military/damageRanking/BattleLoot.tsx:75
+#: src/components/_military/damageRanking/BattleLoot.tsx:84
 msgid "<0>Every <1/> total damage dealt across both sides rolls an <2>{0}</2> into the battle loot pool.</0><3>Battle loot are distributed at the end of the battle, top 1 damage dealer get top 1 item and so on...</3>"
 msgstr "<0>Cada <1/> de dano total infligido por ambas as equipas adiciona uma <2>{0}</2> ao lote de recompensas da batalha.</0><3>O lote the recompensas é distribuído no final da batalha: o jogador com mais dano recebe o item mais valioso, e assim sucessivamente...</3>"
 
@@ -1587,7 +1587,7 @@ msgstr "Gera automaticamente <0>Pontos de Produção</0> ao longo do tempo, sem 
 msgid "Automated engine"
 msgstr "Motor automatizado"
 
-#: src/components/_economy/work/WorkChart.tsx:234
+#: src/components/_economy/work/WorkChart.tsx:235
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:69
 msgid "Automated Engine"
 msgstr "Motor Automatizado"
@@ -1685,11 +1685,11 @@ msgstr "Batalha terminada"
 msgid "Battle Hero"
 msgstr "Herói da Batalha"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:60
+#: src/components/_military/damageRanking/BattleLoot.tsx:69
 msgid "Battle loot"
 msgstr "Recompensas da batalha"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:90
+#: src/components/_military/damageRanking/BattleLoot.tsx:99
 msgid "Battle loot pool"
 msgstr "Recompensas da batalha"
 
@@ -1759,6 +1759,10 @@ msgstr "Aumente sua produção!"
 #: src/utils/translations.tsx:192
 msgid "Boots"
 msgstr "Botas"
+
+#: src/components/_military/damageRanking/BattleLoot.tsx:139
+msgid "Bounty"
+msgstr ""
 
 #: src/components/_military/battle/BattleSystem.tsx:844
 #: src/components/_military/battle/BattleSystem.tsx:854
@@ -2373,6 +2377,7 @@ msgstr "Contrato revertido"
 #: src/components/_military/battle/BattleHeader.tsx:312
 #: src/components/_military/battle/BattlesHeader.tsx:43
 #: src/components/_military/battle/BattleSideContractsModal.tsx:47
+#: src/components/_military/damageRanking/BattleLoot.tsx:131
 #: src/components/_political/country/CountryHeader.tsx:132
 msgid "Contracts"
 msgstr "Contratos"
@@ -2873,7 +2878,7 @@ msgstr "Desmontar item"
 msgid "Dismiss"
 msgstr "Fechar"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:97
+#: src/components/_military/damageRanking/BattleLoot.tsx:106
 msgid "Distributed"
 msgstr "Distribuído"
 
@@ -3034,7 +3039,7 @@ msgstr "Capacete de Elite"
 msgid "Elite Pants"
 msgstr "Calças de Elite"
 
-#: src/components/_economy/work/WorkChart.tsx:213
+#: src/components/_economy/work/WorkChart.tsx:214
 msgid "Employee Production"
 msgstr "Produção de Funcionários"
 
@@ -3988,7 +3993,7 @@ msgstr "Acertar <0>{count}</0> golpes críticos"
 msgid "Language"
 msgstr "Idioma"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:116
+#: src/components/_military/damageRanking/BattleLoot.tsx:154
 msgid "Last"
 msgstr "Último"
 
@@ -4218,7 +4223,7 @@ msgstr "Chance de saque"
 msgid "Loot reward"
 msgstr "Recompensa de saque"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:130
+#: src/components/_military/damageRanking/BattleLoot.tsx:168
 msgid "Loots"
 msgstr "Saque"
 
@@ -4398,6 +4403,10 @@ msgstr "Contratos Mercenários"
 #: src/components/_military/mercenaryContract/MercenaryContractsDisabled.tsx:11
 msgid "Mercenary contracts are currently disabled."
 msgstr "Contratos mercenários estão temporariamente indisponíveis."
+
+#: src/components/_military/damageRanking/BattleLoot.tsx:125
+msgid "Mercenary earnings"
+msgstr ""
 
 #: src/components/_military/mercenaryContract/MercenaryReputationTooltip.tsx:15
 msgid "Mercenary Reputation"
@@ -6063,7 +6072,7 @@ msgstr "Ronda"
 msgid "Round {0}"
 msgstr "Ronda {0}"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:90
+#: src/components/_military/damageRanking/BattleLoot.tsx:99
 msgid "Round {roundNumber} loot pool"
 msgstr "Recompensas da ronda {roundNumber}"
 
@@ -6094,7 +6103,7 @@ msgstr "ETA da ronda"
 msgid "Round Hero"
 msgstr "Herói da ronda"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:60
+#: src/components/_military/damageRanking/BattleLoot.tsx:69
 msgid "Round loot"
 msgstr "Recompensas da ronda"
 
@@ -6210,7 +6219,7 @@ msgstr "Selecione o tipo de moção"
 msgid "Select skin"
 msgstr "Selecione uma skin"
 
-#: src/components/_economy/work/WorkChart.tsx:223
+#: src/components/_economy/work/WorkChart.tsx:224
 #: src/components/_user/mission/mission.frontConfig.tsx:62
 msgid "Self Work"
 msgstr "Trabalho próprio"
@@ -6661,7 +6670,7 @@ msgstr "Apoie o jogo e desmonte itens rapidamente!"
 msgid "Support us"
 msgstr "Apoie-nos"
 
-#: src/components/_economy/work/WorkChart.tsx:271
+#: src/components/_economy/work/WorkChart.tsx:291
 #: src/components/_ui/PremiumButtonTag.tsx:22
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:135
 msgid "Supporter"
@@ -6995,7 +7004,7 @@ msgstr "Tomo das Tempestades"
 msgid "Tome of Tides"
 msgstr "Tomo das marés"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:124
+#: src/components/_military/damageRanking/BattleLoot.tsx:162
 #: src/components/_social/ArticleList.tsx:181
 msgid "Top"
 msgstr "Top"
@@ -7057,7 +7066,7 @@ msgstr "total"
 #: src/components/_economy/inventoryAccount/InventoryAccount.tsx:180
 #: src/components/_economy/itemTrading/TradingOrders.tsx:66
 #: src/components/_economy/itemTrading/TradingOrders.tsx:93
-#: src/components/_economy/work/WorkChart.tsx:198
+#: src/components/_economy/work/WorkChart.tsx:199
 #: src/components/_military/mu/MuMemberList.tsx:190
 #: src/components/_user/user/WealthPanel.tsx:28
 #: src/pages/market/index.tsx:153
@@ -7531,7 +7540,7 @@ msgid "VS"
 msgstr "VS"
 
 #: src/components/_economy/transaction/TransactionList.tsx:73
-#: src/components/_economy/work/WorkChart.tsx:244
+#: src/components/_economy/work/WorkChart.tsx:245
 msgid "Wage"
 msgstr "Salário"
 

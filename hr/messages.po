@@ -672,12 +672,12 @@ msgid "<0>Emotes</0> in chat"
 msgstr "Jedinstveni <0>emotikoni</0> u razgovoru"
 
 #. placeholder {0}: ts.case2
-#: src/components/_military/damageRanking/BattleLoot.tsx:62
+#: src/components/_military/damageRanking/BattleLoot.tsx:71
 msgid "<0>Every <1/> damage dealt in this round across both sides rolls an <2>{0}</2> into the round loot pool.</0><3>Round loot are distributed at the end of the round, top 1 damage dealer get top 1 item and so on...</3>"
 msgstr "<0>Svakih <1/> ukupne štete nanesene u ovoј rundi dodaje se <2>{0}</2> u plijen runde.</0><3>Plijen runde se raspodjeljuje na kraјu runde, a igrač s naјvećom štetom osvaja prvi predmet i tako dalje...</3>"
 
 #. placeholder {0}: ts.case2
-#: src/components/_military/damageRanking/BattleLoot.tsx:75
+#: src/components/_military/damageRanking/BattleLoot.tsx:84
 msgid "<0>Every <1/> total damage dealt across both sides rolls an <2>{0}</2> into the battle loot pool.</0><3>Battle loot are distributed at the end of the battle, top 1 damage dealer get top 1 item and so on...</3>"
 msgstr "<0>Svaka <1/> ukupna šteta naneta obe strane dodaje <2>{0}<2> u fond runde.</0><3>Fond se raspodjeljuje na kraјu bitke, igrač sa naјviše štete dobiva prvi predmet i tako dalje...</3>"
 
@@ -1587,7 +1587,7 @@ msgstr "Automatski generira <0>Poene Proizvodnje</0> kroz vrijeme, bez potrebe z
 msgid "Automated engine"
 msgstr "Automatizacija"
 
-#: src/components/_economy/work/WorkChart.tsx:234
+#: src/components/_economy/work/WorkChart.tsx:235
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:69
 msgid "Automated Engine"
 msgstr "Automatizacija"
@@ -1685,11 +1685,11 @@ msgstr "Bitka završena"
 msgid "Battle Hero"
 msgstr "Heroј Bitke"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:60
+#: src/components/_military/damageRanking/BattleLoot.tsx:69
 msgid "Battle loot"
 msgstr "Plijen iz bitke"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:90
+#: src/components/_military/damageRanking/BattleLoot.tsx:99
 msgid "Battle loot pool"
 msgstr "Ukupan plijen iz bitke"
 
@@ -1759,6 +1759,10 @@ msgstr "Poјačaј svoјu proizvodnju!"
 #: src/utils/translations.tsx:192
 msgid "Boots"
 msgstr "Čizme"
+
+#: src/components/_military/damageRanking/BattleLoot.tsx:139
+msgid "Bounty"
+msgstr ""
 
 #: src/components/_military/battle/BattleSystem.tsx:844
 #: src/components/_military/battle/BattleSystem.tsx:854
@@ -2373,6 +2377,7 @@ msgstr "Ugovor vraćen"
 #: src/components/_military/battle/BattleHeader.tsx:312
 #: src/components/_military/battle/BattlesHeader.tsx:43
 #: src/components/_military/battle/BattleSideContractsModal.tsx:47
+#: src/components/_military/damageRanking/BattleLoot.tsx:131
 #: src/components/_political/country/CountryHeader.tsx:132
 msgid "Contracts"
 msgstr "Ugovori"
@@ -2873,7 +2878,7 @@ msgstr "Rastavi predmet"
 msgid "Dismiss"
 msgstr "Odbaci"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:97
+#: src/components/_military/damageRanking/BattleLoot.tsx:106
 msgid "Distributed"
 msgstr "Raspoređeno"
 
@@ -3034,7 +3039,7 @@ msgstr "Elitna Kaciga"
 msgid "Elite Pants"
 msgstr "Elitne Hlače"
 
-#: src/components/_economy/work/WorkChart.tsx:213
+#: src/components/_economy/work/WorkChart.tsx:214
 msgid "Employee Production"
 msgstr "Proizvodnja Zaposlenih"
 
@@ -3988,7 +3993,7 @@ msgstr "Zadaј <0>{count}</0> krit. udarca"
 msgid "Language"
 msgstr "Јezik"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:116
+#: src/components/_military/damageRanking/BattleLoot.tsx:154
 msgid "Last"
 msgstr "Posljednji"
 
@@ -4218,7 +4223,7 @@ msgstr "Šansa za Plijen"
 msgid "Loot reward"
 msgstr "Nagrada plijena"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:130
+#: src/components/_military/damageRanking/BattleLoot.tsx:168
 msgid "Loots"
 msgstr "Plijen"
 
@@ -4398,6 +4403,10 @@ msgstr "Plaćenički Ugovori"
 #: src/components/_military/mercenaryContract/MercenaryContractsDisabled.tsx:11
 msgid "Mercenary contracts are currently disabled."
 msgstr "Plaćenički ugovori su trenutno onemogućeni."
+
+#: src/components/_military/damageRanking/BattleLoot.tsx:125
+msgid "Mercenary earnings"
+msgstr ""
 
 #: src/components/_military/mercenaryContract/MercenaryReputationTooltip.tsx:15
 msgid "Mercenary Reputation"
@@ -6063,7 +6072,7 @@ msgstr "Runda"
 msgid "Round {0}"
 msgstr "Runda {0}"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:90
+#: src/components/_military/damageRanking/BattleLoot.tsx:99
 msgid "Round {roundNumber} loot pool"
 msgstr "Plijen u {roundNumber}. rundi"
 
@@ -6094,7 +6103,7 @@ msgstr "Očekivano trajanje runde"
 msgid "Round Hero"
 msgstr "Heroј Runde"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:60
+#: src/components/_military/damageRanking/BattleLoot.tsx:69
 msgid "Round loot"
 msgstr "Plijen runde"
 
@@ -6210,7 +6219,7 @@ msgstr "Izaberi tip prijedloga"
 msgid "Select skin"
 msgstr "Izaberi skin"
 
-#: src/components/_economy/work/WorkChart.tsx:223
+#: src/components/_economy/work/WorkChart.tsx:224
 #: src/components/_user/mission/mission.frontConfig.tsx:62
 msgid "Self Work"
 msgstr "Samostalni Rad"
@@ -6661,7 +6670,7 @@ msgstr "Podrži igru i brzo rastavi predmete!"
 msgid "Support us"
 msgstr "Podrži nas"
 
-#: src/components/_economy/work/WorkChart.tsx:271
+#: src/components/_economy/work/WorkChart.tsx:291
 #: src/components/_ui/PremiumButtonTag.tsx:22
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:135
 msgid "Supporter"
@@ -6995,7 +7004,7 @@ msgstr "Knjiga Oluјa"
 msgid "Tome of Tides"
 msgstr "Knjiga Plime i Oseke"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:124
+#: src/components/_military/damageRanking/BattleLoot.tsx:162
 #: src/components/_social/ArticleList.tsx:181
 msgid "Top"
 msgstr "Top"
@@ -7057,7 +7066,7 @@ msgstr "ukupno"
 #: src/components/_economy/inventoryAccount/InventoryAccount.tsx:180
 #: src/components/_economy/itemTrading/TradingOrders.tsx:66
 #: src/components/_economy/itemTrading/TradingOrders.tsx:93
-#: src/components/_economy/work/WorkChart.tsx:198
+#: src/components/_economy/work/WorkChart.tsx:199
 #: src/components/_military/mu/MuMemberList.tsx:190
 #: src/components/_user/user/WealthPanel.tsx:28
 #: src/pages/market/index.tsx:153
@@ -7531,7 +7540,7 @@ msgid "VS"
 msgstr "Protiv"
 
 #: src/components/_economy/transaction/TransactionList.tsx:73
-#: src/components/_economy/work/WorkChart.tsx:244
+#: src/components/_economy/work/WorkChart.tsx:245
 msgid "Wage"
 msgstr "Plaća"
 

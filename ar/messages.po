@@ -672,12 +672,12 @@ msgid "<0>Emotes</0> in chat"
 msgstr "<0>رموز تعبيرية</0> في الدردشة"
 
 #. placeholder {0}: ts.case2
-#: src/components/_military/damageRanking/BattleLoot.tsx:62
+#: src/components/_military/damageRanking/BattleLoot.tsx:71
 msgid "<0>Every <1/> damage dealt in this round across both sides rolls an <2>{0}</2> into the round loot pool.</0><3>Round loot are distributed at the end of the round, top 1 damage dealer get top 1 item and so on...</3>"
 msgstr "<0>كل <1/> ضرر يتم إلحاقه في هذه الجولة من كلا الجانبين يضيف <2>{0}</2> إلى مجموعة غنائم الجولة.</0><3>يتم توزيع غنائم الجولة في نهاية الجولة، حيث يحصل صاحب أعلى ضرر على العنصر الأول، وهكذا...</3>"
 
 #. placeholder {0}: ts.case2
-#: src/components/_military/damageRanking/BattleLoot.tsx:75
+#: src/components/_military/damageRanking/BattleLoot.tsx:84
 msgid "<0>Every <1/> total damage dealt across both sides rolls an <2>{0}</2> into the battle loot pool.</0><3>Battle loot are distributed at the end of the battle, top 1 damage dealer get top 1 item and so on...</3>"
 msgstr "<0>كل <1/> إجمالي ضرر يتم إلحاقه من كلا الجانبين يضيف <2>{0}</2> إلى مجموعة غنائم المعركة.</0><3>يتم توزيع غنائم المعركة في نهاية المعركة، حيث يحصل صاحب أعلى ضرر على العنصر الأول، وهكذا...</3>"
 
@@ -1587,7 +1587,7 @@ msgstr "توليد <0>نقاط إنتاج</0> تلقائياً بمرور الو
 msgid "Automated engine"
 msgstr "محرك آلي"
 
-#: src/components/_economy/work/WorkChart.tsx:234
+#: src/components/_economy/work/WorkChart.tsx:235
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:69
 msgid "Automated Engine"
 msgstr "محرك آلي"
@@ -1685,11 +1685,11 @@ msgstr "انتهت المعركة"
 msgid "Battle Hero"
 msgstr "بطل المعركة"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:60
+#: src/components/_military/damageRanking/BattleLoot.tsx:69
 msgid "Battle loot"
 msgstr "غنائم المعركة"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:90
+#: src/components/_military/damageRanking/BattleLoot.tsx:99
 msgid "Battle loot pool"
 msgstr "مجموعة غنائم المعركة"
 
@@ -1759,6 +1759,10 @@ msgstr "عزز إنتاجك!"
 #: src/utils/translations.tsx:192
 msgid "Boots"
 msgstr "أحذية"
+
+#: src/components/_military/damageRanking/BattleLoot.tsx:139
+msgid "Bounty"
+msgstr ""
 
 #: src/components/_military/battle/BattleSystem.tsx:844
 #: src/components/_military/battle/BattleSystem.tsx:854
@@ -2373,6 +2377,7 @@ msgstr "تم استرجاع العقد"
 #: src/components/_military/battle/BattleHeader.tsx:312
 #: src/components/_military/battle/BattlesHeader.tsx:43
 #: src/components/_military/battle/BattleSideContractsModal.tsx:47
+#: src/components/_military/damageRanking/BattleLoot.tsx:131
 #: src/components/_political/country/CountryHeader.tsx:132
 msgid "Contracts"
 msgstr "العقود"
@@ -2873,7 +2878,7 @@ msgstr "تفكيك العنصر"
 msgid "Dismiss"
 msgstr "تجاهل"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:97
+#: src/components/_military/damageRanking/BattleLoot.tsx:106
 msgid "Distributed"
 msgstr "موزعة"
 
@@ -3034,7 +3039,7 @@ msgstr "خوذة النخبة"
 msgid "Elite Pants"
 msgstr "بنطال النخبة"
 
-#: src/components/_economy/work/WorkChart.tsx:213
+#: src/components/_economy/work/WorkChart.tsx:214
 msgid "Employee Production"
 msgstr "إنتاج الموظف"
 
@@ -3988,7 +3993,7 @@ msgstr "حقق <0>{count}</0> ضربات حرجة"
 msgid "Language"
 msgstr "اللغة"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:116
+#: src/components/_military/damageRanking/BattleLoot.tsx:154
 msgid "Last"
 msgstr "الأخير"
 
@@ -4218,7 +4223,7 @@ msgstr "فرصة الغنيمة"
 msgid "Loot reward"
 msgstr "مكافأة الغنيمة"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:130
+#: src/components/_military/damageRanking/BattleLoot.tsx:168
 msgid "Loots"
 msgstr "الغنائم"
 
@@ -4398,6 +4403,10 @@ msgstr "عقود المرتزقة"
 #: src/components/_military/mercenaryContract/MercenaryContractsDisabled.tsx:11
 msgid "Mercenary contracts are currently disabled."
 msgstr "عقود المرتزقة معطلة حالياً."
+
+#: src/components/_military/damageRanking/BattleLoot.tsx:125
+msgid "Mercenary earnings"
+msgstr ""
 
 #: src/components/_military/mercenaryContract/MercenaryReputationTooltip.tsx:15
 msgid "Mercenary Reputation"
@@ -6063,7 +6072,7 @@ msgstr "جولة"
 msgid "Round {0}"
 msgstr "الجولة {0}"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:90
+#: src/components/_military/damageRanking/BattleLoot.tsx:99
 msgid "Round {roundNumber} loot pool"
 msgstr "{roundNumber} مجموعة غنائم الجولة"
 
@@ -6094,7 +6103,7 @@ msgstr "الوقت المتوقع لانتهاء الجولة"
 msgid "Round Hero"
 msgstr "بطل الجولة"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:60
+#: src/components/_military/damageRanking/BattleLoot.tsx:69
 msgid "Round loot"
 msgstr "غنائم الجولة"
 
@@ -6210,7 +6219,7 @@ msgstr "اختر نوع المقترح"
 msgid "Select skin"
 msgstr "اختر مظهراً"
 
-#: src/components/_economy/work/WorkChart.tsx:223
+#: src/components/_economy/work/WorkChart.tsx:224
 #: src/components/_user/mission/mission.frontConfig.tsx:62
 msgid "Self Work"
 msgstr "عمل ذاتي"
@@ -6661,7 +6670,7 @@ msgstr "ادعم اللعبة وقم بتفكيك العناصر بسرعة!"
 msgid "Support us"
 msgstr "ادعمنا"
 
-#: src/components/_economy/work/WorkChart.tsx:271
+#: src/components/_economy/work/WorkChart.tsx:291
 #: src/components/_ui/PremiumButtonTag.tsx:22
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:135
 msgid "Supporter"
@@ -6995,7 +7004,7 @@ msgstr "كتاب العواصف"
 msgid "Tome of Tides"
 msgstr "كتاب الأمواج"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:124
+#: src/components/_military/damageRanking/BattleLoot.tsx:162
 #: src/components/_social/ArticleList.tsx:181
 msgid "Top"
 msgstr "الأعلى"
@@ -7057,7 +7066,7 @@ msgstr "المجموع"
 #: src/components/_economy/inventoryAccount/InventoryAccount.tsx:180
 #: src/components/_economy/itemTrading/TradingOrders.tsx:66
 #: src/components/_economy/itemTrading/TradingOrders.tsx:93
-#: src/components/_economy/work/WorkChart.tsx:198
+#: src/components/_economy/work/WorkChart.tsx:199
 #: src/components/_military/mu/MuMemberList.tsx:190
 #: src/components/_user/user/WealthPanel.tsx:28
 #: src/pages/market/index.tsx:153
@@ -7531,7 +7540,7 @@ msgid "VS"
 msgstr "ضد"
 
 #: src/components/_economy/transaction/TransactionList.tsx:73
-#: src/components/_economy/work/WorkChart.tsx:244
+#: src/components/_economy/work/WorkChart.tsx:245
 msgid "Wage"
 msgstr "أجر"
 
