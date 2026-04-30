@@ -13,10 +13,42 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
+#: src/components/_common/GameRules.tsx:55
+msgid "  a. Trading equipment"
+msgstr ""
+
+#: src/components/_common/GameRules.tsx:57
+msgid "  b. Working for each other"
+msgstr ""
+
+#: src/components/_common/GameRules.tsx:129
+msgid " - Funneling assets without proper exchange"
+msgstr ""
+
+#: src/components/_common/GameRules.tsx:127
+msgid " - Gear merging schemes *"
+msgstr ""
+
+#: src/components/_common/GameRules.tsx:117
+msgid " - Low-wage labor (lower than 0.7x and above 1.3x the normal salary)"
+msgstr ""
+
 #. placeholder {0}: user.data.mute.reason
 #: src/components/_user/user/UserHeader.tsx:412
 msgid " - Reason: {0}"
 msgstr " - Причина: {0}"
+
+#: src/components/_common/GameRules.tsx:133
+msgid " - Repeated donations of resources or money to a military unit or country."
+msgstr ""
+
+#: src/components/_common/GameRules.tsx:131
+msgid " - Repeatedly tipping articles"
+msgstr ""
+
+#: src/components/_common/GameRules.tsx:123
+msgid " - Using outside market standards or manipulated trade prices"
+msgstr ""
 
 #: src/components/_user/premium/PremiumActions.tsx:71
 msgid " Gift a sub"
@@ -138,6 +170,10 @@ msgstr ""
 #: src/components/_military/battle/RoundScore.tsx:50
 msgid "{score}/{0} Rounds"
 msgstr "{score}/{0} раунда"
+
+#: src/components/_common/GameRules.tsx:153
+msgid "* A gear merging scheme consists of buying items with very low durability at a relatively high price, merging them, and then reselling the result at a low price."
+msgstr ""
 
 #: src/components/_other/shop/SkinPackModal.tsx:214
 msgid "*If the user already owns some pieces of the set, the price will be reduced"
@@ -710,6 +746,14 @@ msgstr ""
 msgid "1 legendary down, 5 more to go for a full stuff, keep gambling!"
 msgstr "1 легендарка выпала, 5 на подходе для полного сета, продолжай лудить!"
 
+#: src/components/_common/GameRules.tsx:182
+msgid "1. English is the only allowed language in World/Global chat"
+msgstr ""
+
+#: src/components/_common/GameRules.tsx:28
+msgid "1. One-Account Policy"
+msgstr ""
+
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:137
 msgid "1★ Admiral"
 msgstr "1★ Адмирал"
@@ -821,6 +865,14 @@ msgstr "1★ Вице-адмирал"
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:77
 msgid "1★ Warrant Officer"
 msgstr "1★ Прапорщик"
+
+#: src/components/_common/GameRules.tsx:46
+msgid "2. IP and Device Sharing"
+msgstr ""
+
+#: src/components/_common/GameRules.tsx:187
+msgid "2. The report tool must be used fairly"
+msgstr ""
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:138
 msgid "2★ Admiral"
@@ -934,6 +986,14 @@ msgstr "2★ Вице-адмирал"
 msgid "2★ Warrant Officer"
 msgstr "2★ Прапорщик"
 
+#: src/components/_common/GameRules.tsx:70
+msgid "3. Bots and Automation"
+msgstr ""
+
+#: src/components/_common/GameRules.tsx:190
+msgid "3. The following content, directly or implied, is strictly prohibited:"
+msgstr ""
+
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:139
 msgid "3★ Admiral"
 msgstr "3★ Адмирал"
@@ -1046,6 +1106,14 @@ msgstr "3★ Вице-адмирал"
 msgid "3★ Warrant Officer"
 msgstr "3★ Прапорщик"
 
+#: src/components/_common/GameRules.tsx:90
+msgid "4. Bug Exploits"
+msgstr ""
+
+#: src/components/_common/GameRules.tsx:256
+msgid "4. Community Behavior rules apply to every possible place within the game where people can write text and post content, as well as everywhere within the War Era Discord server"
+msgstr ""
+
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:152
 msgid "4★ General"
 msgstr "4★ Генерал"
@@ -1054,6 +1122,14 @@ msgstr "4★ Генерал"
 msgid "4★ Lt. General"
 msgstr "4★ Генерал-лейтенант"
 
+#: src/components/_common/GameRules.tsx:108
+msgid "5. Boosting and Exploitation"
+msgstr ""
+
+#: src/components/_common/GameRules.tsx:263
+msgid "5. Prohibited content will be removed, and offenders will be muted and/or banned for increasing periods of time, depending on the level and/or frequency of abuse. Highly problematic individuals with a heavy history of abuse will be permanently muted or banned."
+msgstr ""
+
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:153
 msgid "5★ General"
 msgstr "5★ Генерал"
@@ -1061,6 +1137,14 @@ msgstr "5★ Генерал"
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:146
 msgid "5★ Lt. General"
 msgstr "5★ Генерал-лейтенант"
+
+#: src/components/_common/GameRules.tsx:163
+msgid "6. Taking Over and Misuse of State/Military unit assets"
+msgstr ""
+
+#: src/components/_common/GameRules.tsx:178
+msgid "7. Community Behavior"
+msgstr ""
 
 #: src/components/_user/premium/PremiumFeatureList.tsx:75
 msgid "A <0>supporter badge</0>"
@@ -1105,6 +1189,10 @@ msgstr "Стратегический ресурс обнаружен в этом
 
 #: src/components/_user/modals/PhoneVerificationModal.tsx:144
 msgid "A verification code has been sent to {phoneNumber}"
+msgstr ""
+
+#: src/components/_common/GameRules.tsx:197
+msgid "a. Insults, slurs and targeted harassment"
 msgstr ""
 
 #: src/components/_political/law/Law.tsx:170
@@ -1170,6 +1258,10 @@ msgstr ""
 #: src/pages/user/[userId]/index.tsx:150
 msgid "Account"
 msgstr "Бюджет"
+
+#: src/components/_common/GameRules.tsx:111
+msgid "Accounts created solely to benefit a player, group, military unit or country are not permitted. Exploited accounts can take many forms. This includes, but is not limited to:"
+msgstr ""
 
 #: src/pages/country/[countryId]/government.tsx:69
 msgid "Actions"
@@ -1321,6 +1413,10 @@ msgstr ""
 msgid "All skins owned"
 msgstr "Все скины во владении"
 
+#: src/components/_common/GameRules.tsx:59
+msgid "All transactions must stay fair and balanced."
+msgstr ""
+
 #: src/components/_economy/transaction/TransactionList.tsx:70
 msgid "All types"
 msgstr "Все виды"
@@ -1404,6 +1500,10 @@ msgstr "Письмо с кодом подтверждения выслано н�
 #: src/components/_user/premium/PremiumFeatureList.tsx:108
 msgid "Animated <0>GIF</0> as avatar"
 msgstr "Анимированный <0>GIF</0> в аватарке"
+
+#: src/components/_common/GameRules.tsx:61
+msgid "Any attempts to bypass these rules can result in the removal of sharing status, fines and temporary or permanent bans."
+msgstr ""
 
 #: src/components/_user/apiToken/ApiTokenList.tsx:40
 msgid "API token created"
@@ -1596,6 +1696,10 @@ msgstr "Автоматический Двигатель"
 msgid "Avatar removed"
 msgstr "Аватарка удалена"
 
+#: src/components/_common/GameRules.tsx:200
+msgid "b. Revealing personal information or doxxing (such as names or addresses), without explicit consent"
+msgstr ""
+
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:170
 msgid "Baby Boomer"
 msgstr ""
@@ -1760,7 +1864,7 @@ msgstr "Увеличьте своё производство!"
 msgid "Boots"
 msgstr "Берцы"
 
-#: src/components/_military/battle/LootSummaryCard.tsx:104
+#: src/components/_military/battle/LootSummaryCard.tsx:103
 msgid "Bounty"
 msgstr ""
 
@@ -1875,6 +1979,10 @@ msgstr "Отклонив снижение зарплаты, Вы покинет�
 
 #: src/components/_military/damageRanking/DamageRankingSides.tsx:150
 msgid "By side"
+msgstr ""
+
+#: src/components/_common/GameRules.tsx:206
+msgid "c. Sexual, explicit or suggestive remarks, comments, images or content"
 msgstr ""
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:26
@@ -2377,7 +2485,7 @@ msgstr ""
 #: src/components/_military/battle/BattleHeader.tsx:312
 #: src/components/_military/battle/BattlesHeader.tsx:43
 #: src/components/_military/battle/BattleSideContractsModal.tsx:47
-#: src/components/_military/battle/LootSummaryCard.tsx:96
+#: src/components/_military/battle/LootSummaryCard.tsx:95
 #: src/components/_political/country/CountryHeader.tsx:132
 msgid "Contracts"
 msgstr ""
@@ -2567,6 +2675,10 @@ msgstr "Текущее кол-во:"
 #: src/components/_user/premium/PremiumFeatureList.tsx:98
 msgid "Custom username font"
 msgstr "Пользовательский шрифт никнейма"
+
+#: src/components/_common/GameRules.tsx:212
+msgid "d. Any form of discrimination, racism, xenophobia, antisemitism, homophobia, transphobia and hate speech"
+msgstr ""
 
 #: src/components/_user/mission/MissionsList.tsx:190
 msgid "Daily"
@@ -2943,6 +3055,10 @@ msgstr ""
 msgid "Dragon"
 msgstr ""
 
+#: src/components/_common/GameRules.tsx:218
+msgid "e. Content about ongoing real-world wars and armed conflicts (most notably the Russo-Ukrainian war and the Israeli–Palestinian conflict)"
+msgstr ""
+
 #: src/components/_user/mission/mission.frontConfig.tsx:130
 msgid "Eat"
 msgstr "Есть"
@@ -3180,6 +3296,18 @@ msgstr "Истощится через"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:217
 msgid "Exploit Finder"
+msgstr ""
+
+#: src/components/_common/GameRules.tsx:146
+msgid "Exploited accounts will be permanently banned and the boosted account will receive a temporary ban, fine, or permanent ban if repeated."
+msgstr ""
+
+#: src/components/_common/GameRules.tsx:93
+msgid "Exploiting or ignoring bugs for personal gain is forbidden. All players are expected to report any discovered bugs and avoid taking advantage of them."
+msgstr ""
+
+#: src/components/_common/GameRules.tsx:225
+msgid "f. Glorification/apology of hateful ideologies such as nazism, neo-nazism, fascism, terrorism and terrorist groups and movements (considered as such by the United Nations, the European Union or France), genocide denial, war crimes, or crimes against humanity, Putinism and communism"
 msgstr ""
 
 #: src/components/_user/apiToken/ApiTokenList.tsx:92
@@ -3429,6 +3557,10 @@ msgstr "Ежедневная награда"
 msgid "Fun fact: The house always wins"
 msgstr "Забавный факт: Казино всегда в выигрыше"
 
+#: src/components/_common/GameRules.tsx:234
+msgid "g. The use of profiles (picture, description, name) related to aforementioned ideologies and movements as well as political figures linked to ongoing real-world wars and armed conflicts. Humoristic names, descriptions and pictures are tolerated, with the exception of any content related to nazism and neo-nazism."
+msgstr ""
+
 #: src/components/_user/user/Level.tsx:91
 msgid "Gain <0>Xp</0> by finishing your missions!"
 msgstr "Получай <0>Xp</0> выполняя миссии!"
@@ -3652,6 +3784,10 @@ msgstr "Занятые высоты"
 msgid "Gun"
 msgstr "Пистолет"
 
+#: src/components/_common/GameRules.tsx:243
+msgid "h. Glorification, promotion or encouragement of rule-breaking or cheating"
+msgstr ""
+
 #: src/components/_other/shop/skin.frontConfig.tsx:236
 msgid "Hamster Tank"
 msgstr ""
@@ -3737,6 +3873,10 @@ msgstr "Следущим выпадет мифическое, я чувству�
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:28
 msgid "I heard buying premium boost your chances :3"
 msgstr "Я слышал, покупка премиума повышает твои шансы :3"
+
+#: src/components/_common/GameRules.tsx:249
+msgid "i. Promotion of other games, products, or services"
+msgstr ""
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:81
 msgid "I'm proud of you"
@@ -3856,6 +3996,10 @@ msgstr ""
 msgid "Initiate"
 msgstr "Новобранец"
 
+#: src/components/_common/GameRules.tsx:37
+msgid "Intentional or repeated violations of this policy will result in a permanent ban."
+msgstr ""
+
 #: src/components/_layout/LayoutMenu.tsx:125
 #: src/components/_user/user/MyAvatar.tsx:35
 #: src/components/_user/user/UserHeader.tsx:157
@@ -3900,6 +4044,10 @@ msgstr "Рынок предметов"
 
 #: src/components/_user/user/WealthPanel.tsx:49
 msgid "Items"
+msgstr ""
+
+#: src/components/_common/GameRules.tsx:252
+msgid "j. Spam and repeated messages"
 msgstr ""
 
 #: src/pages/companies.tsx:32
@@ -3951,6 +4099,10 @@ msgstr "Устроившись на новую работу, вы покинет
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:22
 msgid "Just 1 more..."
 msgstr "Ещё один..."
+
+#: src/components/_common/GameRules.tsx:274
+msgid "Just because something isn't explicitly stated in the rules does not mean you can abuse it. Attempts to bypass rules or exploit loopholes will still be punished."
+msgstr ""
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:50
 msgid "Just one more… what could go wrong?"
@@ -4404,7 +4556,7 @@ msgstr ""
 msgid "Mercenary contracts are currently disabled."
 msgstr ""
 
-#: src/components/_military/battle/LootSummaryCard.tsx:90
+#: src/components/_military/battle/LootSummaryCard.tsx:89
 msgid "Mercenary earnings"
 msgstr ""
 
@@ -4629,7 +4781,7 @@ msgstr ""
 msgid "MU Tournament Winner"
 msgstr ""
 
-#: src/components/_military/battle/LootSummaryCard.tsx:121
+#: src/components/_military/battle/LootSummaryCard.tsx:122
 msgid "My battle loot"
 msgstr ""
 
@@ -4985,6 +5137,10 @@ msgstr "Выдвинут в правительство"
 #: src/components/_political/law/LawFormModal.tsx:270
 msgid "Normal"
 msgstr "Обычный"
+
+#: src/components/_common/GameRules.tsx:140
+msgid "Not all forms of helping are treated as boosting or exploiting; the intent will be assessed in line with the list provided above."
+msgstr ""
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:40
 msgid "Not bad!"
@@ -5353,6 +5509,14 @@ msgstr "Таблетка"
 msgid "Plant a tree in the data center"
 msgstr "Посадить дерево в дата-центре"
 
+#: src/components/_common/GameRules.tsx:31
+msgid "Players are limited to a single account. Creating multiple accounts or using someone else's account for any reason is strictly prohibited."
+msgstr ""
+
+#: src/components/_common/GameRules.tsx:49
+msgid "Players can share an IP address if they have been registered as a \"Family Group\". This status must be requested in advance to an admin on our Discord. Group members are prohibited from:"
+msgstr ""
+
 #: src/components/_user/auth/ConnectFromModal.tsx:93
 #: src/components/_user/auth/ConnectFromModal.tsx:113
 #: src/components/_user/auth/ConnectFromModal.tsx:190
@@ -5375,6 +5539,10 @@ msgstr "Политические законы"
 #: src/components/_political/partyMotion/PartyMotionTypeSelect.tsx:66
 msgid "Political motions"
 msgstr "Политические постановления"
+
+#: src/components/_common/GameRules.tsx:166
+msgid "Political Take Overs (PTOs) are permitted, but misusing it to extract a country's resources for personal/another country's gain, to damage the country or to intentionally distort market conditions is a punishable offense, which will include fines, bans, and removal from government roles. This goes for Military Units as well."
+msgstr ""
 
 #: src/components/_user/notification/notificationPrefs.categories.ts:156
 msgid "Politics & Government"
@@ -5608,6 +5776,10 @@ msgstr "Предложить снижение зарплаты"
 #: src/components/_other/shop/ShopHeader.tsx:43
 msgid "Propositions"
 msgstr "Предложения"
+
+#: src/components/_common/GameRules.tsx:286
+msgid "Punishments, along with their reasoning, are visible on user profiles. Players may appeal through the official Discord server, where detailed explanations and evidence will be provided. Rule violations can be reported with supporting evidence."
+msgstr ""
 
 #: src/components/_other/shop/skin.frontConfig.tsx:164
 msgid "Purple Staff"
@@ -6847,6 +7019,10 @@ msgstr "Турнир завершён для Вашей команды <0/>. П�
 msgid "The universe owes you something big"
 msgstr "Вселенная тебе крупно задолжала"
 
+#: src/components/_common/GameRules.tsx:73
+msgid "The use of bots, scripts, or any form of automation to gain an advantage over other players is strictly forbidden. This includes, but is not limited to, web scraping and creating scripts that bypass the game intended functionality or restrictions."
+msgstr ""
+
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:132
 msgid "This action will submit your MU bid for this contract."
 msgstr ""
@@ -7493,6 +7669,10 @@ msgstr "Valentine Sniper"
 msgid "Valentine Tank"
 msgstr "Valentine Tank"
 
+#: src/components/_common/GameRules.tsx:99
+msgid "Valuable contributions will be recognized with the \"Bug Finder\" badge."
+msgstr ""
+
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:56
 msgid "Vanguard"
 msgstr "Старший сержант"
@@ -7662,6 +7842,10 @@ msgstr "Добро пожаловать в Вашу экономику!"
 msgid "When your <0>Health</0> runs out, open this menu to restore it with food."
 msgstr "Когда Ваше <0>Здоровье</0> закончится, откройте это меню, чтобы восстановить его с помощью еды."
 
+#: src/components/_common/GameRules.tsx:80
+msgid "While data collection and display tools that use the official public API are allowed, for any other development or data access, please contact the staff team directly."
+msgstr ""
+
 #: src/pages/companies.tsx:102
 msgid "Whole Production"
 msgstr "Всё производство"
@@ -7741,6 +7925,10 @@ msgstr "ЧЗХ"
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:79
 msgid "Wtf is this possible?"
 msgstr "Погодите, это реально?"
+
+#: src/components/_common/GameRules.tsx:283
+msgid "X. Punishments and Appeals"
+msgstr ""
 
 #: src/components/_user/user/UserRankingsPanel.tsx:44
 msgid "XP"
