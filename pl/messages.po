@@ -1286,8 +1286,8 @@ msgid "Actions"
 msgstr "Akcje"
 
 #: src/components/_military/battle/BattlesHeader.tsx:25
-#: src/components/_military/mercenaryContract/MercenaryAuctionList.tsx:132
-#: src/components/_military/mercenaryContract/MercenaryContractList.tsx:83
+#: src/components/_military/mercenaryContract/MercenaryAuctionList.tsx:134
+#: src/components/_military/mercenaryContract/MercenaryContractList.tsx:85
 #: src/pages/events/index.tsx:94
 #: src/utils/translations.tsx:258
 msgid "Active"
@@ -1372,7 +1372,7 @@ msgstr ""
 
 #: src/components/_military/battle/ActiveBattlesList.tsx:132
 #: src/components/_military/battle/EndedBattlesList.tsx:78
-#: src/components/_military/mercenaryContract/MercenaryContractList.tsx:77
+#: src/components/_military/mercenaryContract/MercenaryContractList.tsx:79
 msgid "All"
 msgstr "Wszystkie"
 
@@ -1970,6 +1970,10 @@ msgstr "Utwórz jednostkę wojskową"
 
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:31
 msgid "Bunker"
+msgstr ""
+
+#: src/components/_military/mercenaryContract/BuyMercenaryReputationButton.tsx:69
+msgid "Buy <0/>"
 msgstr ""
 
 #. placeholder {0}: law.data.amount ?? 0
@@ -4570,7 +4574,7 @@ msgstr ""
 
 #: src/pages/country/[countryId]/contracts.tsx:25
 #: src/pages/country/[countryId]/index.tsx:380
-#: src/pages/mu/[muId]/contracts.tsx:24
+#: src/pages/mu/[muId]/contracts.tsx:25
 msgid "Mercenary Contracts"
 msgstr ""
 
@@ -4856,6 +4860,10 @@ msgstr ""
 msgid "Need a job?"
 msgstr "Potrzebujesz pracy?"
 
+#: src/components/_military/mercenaryContract/BuyMercenaryReputationButton.tsx:47
+msgid "Negative mercenary reputation"
+msgstr ""
+
 #: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:173
 msgid "Net benefit:"
 msgstr ""
@@ -4908,7 +4916,7 @@ msgstr "Nowa oferta pracy"
 msgid "New location"
 msgstr "Nowa lokalizacja"
 
-#: src/components/_military/mercenaryContract/MercenaryAuctionList.tsx:121
+#: src/components/_military/mercenaryContract/MercenaryAuctionList.tsx:123
 msgid "New Mercenary Auction"
 msgstr ""
 
@@ -5066,11 +5074,11 @@ msgstr "Brak praw"
 msgid "No members in this military unit."
 msgstr ""
 
-#: src/components/_military/mercenaryContract/MercenaryAuctionList.tsx:144
+#: src/components/_military/mercenaryContract/MercenaryAuctionList.tsx:146
 msgid "No mercenary auctions"
 msgstr ""
 
-#: src/components/_military/mercenaryContract/MercenaryContractList.tsx:96
+#: src/components/_military/mercenaryContract/MercenaryContractList.tsx:98
 msgid "No mercenary contracts"
 msgstr ""
 
@@ -6142,6 +6150,10 @@ msgstr "Republikanin"
 msgid "Reputation decays 20% toward 0 every week (minimum 1 point)."
 msgstr ""
 
+#: src/components/_military/mercenaryContract/BuyMercenaryReputationButton.tsx:26
+msgid "Reputation purchased!"
+msgstr ""
+
 #: src/components/_user/user/UserDropdown.tsx:335
 msgid "Request Phone Verification"
 msgstr ""
@@ -6947,8 +6959,8 @@ msgstr "Typ podatku"
 msgid "Taxes"
 msgstr "Podatki"
 
-#: src/components/_military/mercenaryContract/MercenaryAuctionList.tsx:138
-#: src/components/_military/mercenaryContract/MercenaryContractList.tsx:89
+#: src/components/_military/mercenaryContract/MercenaryAuctionList.tsx:140
+#: src/components/_military/mercenaryContract/MercenaryContractList.tsx:91
 msgid "Terminated"
 msgstr ""
 
@@ -8416,6 +8428,10 @@ msgstr "Twoje szczęście jest na wakacjach"
 #: src/components/_military/mu/MuFormModal.tsx:108
 msgid "Your military unit name"
 msgstr "Nazwa twojej jednostki wojskowej"
+
+#: src/components/_military/mercenaryContract/BuyMercenaryReputationButton.tsx:50
+msgid "Your MU has <0/> reputation and cannot bid on mercenary contracts. Pay to buy back reputation (once per day)."
+msgstr ""
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:223
 msgid "Your MU must have enough money to cover the acceptance fee to bid. Payment is only deducted if you win, and refunded on contract completion."
