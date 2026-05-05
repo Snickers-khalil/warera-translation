@@ -13,10 +13,42 @@ msgstr ""
 "Language-Team: War Era Taiwan\n"
 "Plural-Forms: \n"
 
+#: src/components/_common/GameRules.tsx:55
+msgid "  a. Trading equipment"
+msgstr ""
+
+#: src/components/_common/GameRules.tsx:57
+msgid "  b. Working for each other"
+msgstr ""
+
+#: src/components/_common/GameRules.tsx:129
+msgid " - Funneling assets without proper exchange"
+msgstr ""
+
+#: src/components/_common/GameRules.tsx:127
+msgid " - Gear merging schemes *"
+msgstr ""
+
+#: src/components/_common/GameRules.tsx:117
+msgid " - Low-wage labor (lower than 0.7x and above 1.3x the normal salary)"
+msgstr ""
+
 #. placeholder {0}: user.data.mute.reason
 #: src/components/_user/user/UserHeader.tsx:412
 msgid " - Reason: {0}"
 msgstr " - 原因: {0}"
+
+#: src/components/_common/GameRules.tsx:133
+msgid " - Repeated donations of resources or money to a military unit or country."
+msgstr ""
+
+#: src/components/_common/GameRules.tsx:131
+msgid " - Repeatedly tipping articles"
+msgstr ""
+
+#: src/components/_common/GameRules.tsx:123
+msgid " - Using outside market standards or manipulated trade prices"
+msgstr ""
 
 #: src/components/_user/premium/PremiumActions.tsx:71
 msgid " Gift a sub"
@@ -66,7 +98,7 @@ msgstr "{0} 小時"
 
 #. placeholder {0}: data.outbidByMuName
 #. placeholder {1}: data.newPerK
-#: src/components/_user/notification/notification.frontConfig.tsx:1622
+#: src/components/_user/notification/notification.frontConfig.tsx:1640
 msgid "{0} outbid you at ${1}/K"
 msgstr ""
 
@@ -106,19 +138,19 @@ msgstr "會從你給員工的薪資中扣除 {0}% 所得稅"
 msgid "{0}% of invested"
 msgstr "投資的 {0}%"
 
-#: src/components/_military/battle/BattleName.tsx:141
+#: src/components/_military/battle/BattleName.tsx:142
 msgid "{battleIcon}Battle for {regionName} {score}"
 msgstr ""
 
-#: src/components/_military/battle/BattleName.tsx:146
+#: src/components/_military/battle/BattleName.tsx:147
 msgid "{battleIcon}Resistance for {regionName} {score}"
 msgstr ""
 
-#: src/components/_military/battle/BattleName.tsx:151
+#: src/components/_military/battle/BattleName.tsx:152
 msgid "{battleIcon}Revolution {score}"
 msgstr ""
 
-#: src/components/_military/battle/BattleName.tsx:156
+#: src/components/_military/battle/BattleName.tsx:157
 msgid "{battleIcon}Tournament battle for {tournamentName} {score}"
 msgstr "{battleIcon} 錦標賽戰鬥 {tournamentName} {score}"
 
@@ -138,6 +170,10 @@ msgstr ""
 #: src/components/_military/battle/RoundScore.tsx:50
 msgid "{score}/{0} Rounds"
 msgstr "{score}/{0} 回合"
+
+#: src/components/_common/GameRules.tsx:153
+msgid "* A gear merging scheme consists of buying items with very low durability at a relatively high price, merging them, and then reselling the result at a low price."
+msgstr ""
 
 #: src/components/_other/shop/SkinPackModal.tsx:214
 msgid "*If the user already owns some pieces of the set, the price will be reduced"
@@ -162,6 +198,24 @@ msgstr "<0/> 申請加入 <1/>"
 msgid "<0/> at <1>{0}</1> wage.{1}"
 msgstr "<0/>，薪資為 <1>{0}</1>。{1}"
 
+#: src/components/_user/notification/notification.frontConfig.tsx:1821
+msgid "<0/> bought your {assetLabel} as a gift for <1/>!"
+msgstr ""
+
+#: src/components/_user/notification/notification.frontConfig.tsx:1828
+msgid "<0/> bought your {assetLabel}!"
+msgstr ""
+
+#. placeholder {0}: data.bannerTitle ? ` "${data.bannerTitle}"` : ''
+#: src/components/_user/notification/notification.frontConfig.tsx:1475
+msgid "<0/> bought your banner{0} as a gift for <1/>!"
+msgstr ""
+
+#. placeholder {0}: data.bannerTitle ? ` "${data.bannerTitle}"` : ''
+#: src/components/_user/notification/notification.frontConfig.tsx:1483
+msgid "<0/> bought your banner{0}!"
+msgstr ""
+
 #. placeholder {0}: law.data.amount ?? 0
 #: src/components/_political/law/law.frontConfig.tsx:380
 msgid "<0/> buys <1/> for <2>{0}</2>"
@@ -172,7 +226,7 @@ msgstr ""
 msgid "<0/> buys your region <1/> for <2>{0}</2>"
 msgstr "<0/> 用 <2>{0}</2> 購買你的地區 <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1542
+#: src/components/_user/notification/notification.frontConfig.tsx:1560
 msgid "<0/> cancelled the contract."
 msgstr ""
 
@@ -180,7 +234,7 @@ msgstr ""
 msgid "<0/> commented on your article <1/>"
 msgstr "<0/> 在你的文章 <1/> 留言"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1517
+#: src/components/_user/notification/notification.frontConfig.tsx:1535
 msgid "<0/> completed a contract, you earned <1/>"
 msgstr ""
 
@@ -239,12 +293,12 @@ msgstr "<0/> 贈送給你一個訂閱！"
 msgid "<0/> gifted you the banner \"{0}\"!"
 msgstr "<0/> 贈送給你一個橫幅 \"{0}\" ！"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1693
+#: src/components/_user/notification/notification.frontConfig.tsx:1711
 msgid "<0/> gifted you the skin \"{skinTitle}\"!"
 msgstr "<0/> 贈送給你造型 \"{skinTitle}\"！"
 
 #. placeholder {0}: data.skinPackTitle
-#: src/components/_user/notification/notification.frontConfig.tsx:1756
+#: src/components/_user/notification/notification.frontConfig.tsx:1774
 msgid "<0/> gifted you the skin pack \"{0}\"!"
 msgstr "<0/> 贈送給你造型包 \"{0}\"！"
 
@@ -448,7 +502,7 @@ msgstr "<0/> 被任命為 <1>{0}</1>"
 msgid "<0/> won round {0}"
 msgstr "<0/> 贏得了回合 {0}"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1500
+#: src/components/_user/notification/notification.frontConfig.tsx:1518
 msgid "<0/> won the auction on a contract with <1/>"
 msgstr ""
 
@@ -547,7 +601,7 @@ msgid "<0>{0}</0> Defense bonus"
 msgstr "<0>{0}</0> 防禦加成"
 
 #. placeholder {0}: data.acceptanceFeeReturned
-#: src/components/_user/notification/notification.frontConfig.tsx:1563
+#: src/components/_user/notification/notification.frontConfig.tsx:1581
 msgid "<0>{0}</0> fee returned to MU."
 msgstr ""
 
@@ -624,7 +678,7 @@ msgid "<0>{0}</0> ground are required to win a round, points are gained every ti
 msgstr "還需要 <0>{0}</0> 優勢點來取得回合勝利，點數隨每刻增加"
 
 #. placeholder {0}: data.refund
-#: src/components/_user/notification/notification.frontConfig.tsx:1555
+#: src/components/_user/notification/notification.frontConfig.tsx:1573
 msgid "<0>{0}</0> returned to <1/>."
 msgstr ""
 
@@ -659,11 +713,11 @@ msgstr "<0>{strategicBonus}</0> 來自於 <1/> 的戰略資源產量加成。"
 msgid "<0>#{key}</0> resource of each type = <1>{value}</1>"
 msgstr "各類資源第 <0>{key}</0> 種 = <1>{value}</1>"
 
-#: src/components/_user/user/UserTooltip.tsx:122
+#: src/components/_user/user/UserTooltip.tsx:131
 msgid "<0>Buff</0> ends <1/>"
 msgstr "<0>加成</0> 結束於 <1/>"
 
-#: src/components/_user/user/UserTooltip.tsx:131
+#: src/components/_user/user/UserTooltip.tsx:140
 msgid "<0>Debuff</0> ends <1/>"
 msgstr "<0>減益</0> 結束於 <1/>"
 
@@ -709,6 +763,14 @@ msgstr ""
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:86
 msgid "1 legendary down, 5 more to go for a full stuff, keep gambling!"
 msgstr "得到1個傳奇裝啦，還差5個就湊齊滿裝了。繼續賭博吧！"
+
+#: src/components/_common/GameRules.tsx:182
+msgid "1. English is the only allowed language in World/Global chat"
+msgstr ""
+
+#: src/components/_common/GameRules.tsx:28
+msgid "1. One-Account Policy"
+msgstr ""
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:137
 msgid "1★ Admiral"
@@ -822,6 +884,14 @@ msgstr "1★ 中將"
 msgid "1★ Warrant Officer"
 msgstr "1★ 准尉"
 
+#: src/components/_common/GameRules.tsx:46
+msgid "2. IP and Device Sharing"
+msgstr ""
+
+#: src/components/_common/GameRules.tsx:187
+msgid "2. The report tool must be used fairly"
+msgstr ""
+
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:138
 msgid "2★ Admiral"
 msgstr "2★ 上將"
@@ -933,6 +1003,14 @@ msgstr "2★ 中將"
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:78
 msgid "2★ Warrant Officer"
 msgstr "2★ 准尉"
+
+#: src/components/_common/GameRules.tsx:70
+msgid "3. Bots and Automation"
+msgstr ""
+
+#: src/components/_common/GameRules.tsx:190
+msgid "3. The following content, directly or implied, is strictly prohibited:"
+msgstr ""
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:139
 msgid "3★ Admiral"
@@ -1046,6 +1124,14 @@ msgstr "3★ 中將"
 msgid "3★ Warrant Officer"
 msgstr "3★ 准尉"
 
+#: src/components/_common/GameRules.tsx:90
+msgid "4. Bug Exploits"
+msgstr ""
+
+#: src/components/_common/GameRules.tsx:256
+msgid "4. Community Behavior rules apply to every possible place within the game where people can write text and post content, as well as everywhere within the War Era Discord server"
+msgstr ""
+
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:152
 msgid "4★ General"
 msgstr "4★ 上將"
@@ -1054,6 +1140,14 @@ msgstr "4★ 上將"
 msgid "4★ Lt. General"
 msgstr "4★ 中將"
 
+#: src/components/_common/GameRules.tsx:108
+msgid "5. Boosting and Exploitation"
+msgstr ""
+
+#: src/components/_common/GameRules.tsx:263
+msgid "5. Prohibited content will be removed, and offenders will be muted and/or banned for increasing periods of time, depending on the level and/or frequency of abuse. Highly problematic individuals with a heavy history of abuse will be permanently muted or banned."
+msgstr ""
+
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:153
 msgid "5★ General"
 msgstr "5★ 上將"
@@ -1061,6 +1155,14 @@ msgstr "5★ 上將"
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:146
 msgid "5★ Lt. General"
 msgstr "5★ 中將"
+
+#: src/components/_common/GameRules.tsx:163
+msgid "6. Taking Over and Misuse of State/Military unit assets"
+msgstr ""
+
+#: src/components/_common/GameRules.tsx:178
+msgid "7. Community Behavior"
+msgstr ""
 
 #: src/components/_user/premium/PremiumFeatureList.tsx:75
 msgid "A <0>supporter badge</0>"
@@ -1105,6 +1207,10 @@ msgstr "在這個區域中找到戰略資源，它會向擁有者提供生產和
 
 #: src/components/_user/modals/PhoneVerificationModal.tsx:144
 msgid "A verification code has been sent to {phoneNumber}"
+msgstr ""
+
+#: src/components/_common/GameRules.tsx:197
+msgid "a. Insults, slurs and targeted harassment"
 msgstr ""
 
 #: src/components/_political/law/Law.tsx:170
@@ -1171,13 +1277,17 @@ msgstr "訪問戰爭"
 msgid "Account"
 msgstr "帳號"
 
+#: src/components/_common/GameRules.tsx:111
+msgid "Accounts created solely to benefit a player, group, military unit or country are not permitted. Exploited accounts can take many forms. This includes, but is not limited to:"
+msgstr ""
+
 #: src/pages/country/[countryId]/government.tsx:69
 msgid "Actions"
 msgstr "行動"
 
 #: src/components/_military/battle/BattlesHeader.tsx:25
-#: src/components/_military/mercenaryContract/MercenaryAuctionList.tsx:132
-#: src/components/_military/mercenaryContract/MercenaryContractList.tsx:83
+#: src/components/_military/mercenaryContract/MercenaryAuctionList.tsx:134
+#: src/components/_military/mercenaryContract/MercenaryContractList.tsx:85
 #: src/pages/events/index.tsx:94
 #: src/utils/translations.tsx:258
 msgid "Active"
@@ -1227,7 +1337,7 @@ msgstr "額外花費"
 msgid "Admin"
 msgstr "管理員"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2038
+#: src/components/_user/notification/notification.frontConfig.tsx:2075
 msgid "Admin notification"
 msgstr "管理員通知"
 
@@ -1262,7 +1372,7 @@ msgstr "農業主義"
 
 #: src/components/_military/battle/ActiveBattlesList.tsx:132
 #: src/components/_military/battle/EndedBattlesList.tsx:78
-#: src/components/_military/mercenaryContract/MercenaryContractList.tsx:77
+#: src/components/_military/mercenaryContract/MercenaryContractList.tsx:79
 msgid "All"
 msgstr "全部"
 
@@ -1320,6 +1430,10 @@ msgstr ""
 #: src/components/_other/shop/SkinPackModal.tsx:285
 msgid "All skins owned"
 msgstr "所有擁有造型"
+
+#: src/components/_common/GameRules.tsx:59
+msgid "All transactions must stay fair and balanced."
+msgstr ""
 
 #: src/components/_economy/transaction/TransactionList.tsx:70
 msgid "All types"
@@ -1385,7 +1499,7 @@ msgid "Amount of companies you can own"
 msgstr "你可以擁有的公司數量"
 
 #. placeholder {0}: data.refund
-#: src/components/_user/notification/notification.frontConfig.tsx:1535
+#: src/components/_user/notification/notification.frontConfig.tsx:1553
 msgid "An admin cancelled the contract. <0>{0}</0> returned to <1/>."
 msgstr ""
 
@@ -1404,6 +1518,10 @@ msgstr "一封包含認證密碼的 email 已經送至 {email}"
 #: src/components/_user/premium/PremiumFeatureList.tsx:108
 msgid "Animated <0>GIF</0> as avatar"
 msgstr "把會動的 <0>GIF</0> 當作頭像"
+
+#: src/components/_common/GameRules.tsx:61
+msgid "Any attempts to bypass these rules can result in the removal of sharing status, fines and temporary or permanent bans."
+msgstr ""
 
 #: src/components/_user/apiToken/ApiTokenList.tsx:40
 msgid "API token created"
@@ -1442,7 +1560,7 @@ msgstr "申請"
 msgid "Approved"
 msgstr ""
 
-#: src/components/_other/shop/skin.frontConfig.tsx:179
+#: src/components/_other/shop/skin.frontConfig.tsx:182
 msgid "Arcane Boots"
 msgstr ""
 
@@ -1508,7 +1626,7 @@ msgstr "護甲值"
 msgid "Article ID"
 msgstr "文章 ID"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1899
+#: src/components/_user/notification/notification.frontConfig.tsx:1936
 msgid "Article liked"
 msgstr "文章已按讚"
 
@@ -1516,8 +1634,8 @@ msgstr "文章已按讚"
 msgid "Article Tip"
 msgstr "文章小費"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1901
-#: src/components/_user/notification/notification.frontConfig.tsx:1902
+#: src/components/_user/notification/notification.frontConfig.tsx:1938
+#: src/components/_user/notification/notification.frontConfig.tsx:1939
 msgid "Article tipped"
 msgstr "文章已給小費"
 
@@ -1534,7 +1652,7 @@ msgstr "<0/> 的文章"
 msgid "At least you tried"
 msgstr "至少你試過了"
 
-#: src/components/_military/battle/BattleSystem.tsx:609
+#: src/components/_military/battle/BattleSystem.tsx:611
 msgid "At the end of the timer <0>{actualTickPoints}</0> will be assigned to the side with the most damages."
 msgstr "在倒計時結束時， <0>{actualTickPoints}</0> 將會被發派到傷害較多的一邊。"
 
@@ -1557,7 +1675,7 @@ msgstr "攻擊方"
 msgid "Auction Duration (minutes)"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2022
+#: src/components/_user/notification/notification.frontConfig.tsx:2059
 msgid "Auction Outbid"
 msgstr ""
 
@@ -1596,6 +1714,10 @@ msgstr "自動化機械"
 msgid "Avatar removed"
 msgstr "頭像已移除"
 
+#: src/components/_common/GameRules.tsx:200
+msgid "b. Revealing personal information or doxxing (such as names or addresses), without explicit consent"
+msgstr ""
+
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:170
 msgid "Baby Boomer"
 msgstr ""
@@ -1604,7 +1726,7 @@ msgstr ""
 msgid "Badge won"
 msgstr "獲取的徽章"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1850
+#: src/components/_user/notification/notification.frontConfig.tsx:1887
 msgid "Badge Won"
 msgstr "獲取了徽章"
 
@@ -1629,15 +1751,15 @@ msgstr "破產"
 msgid "Banned"
 msgstr "已停權"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1866
+#: src/components/_user/notification/notification.frontConfig.tsx:1903
 msgid "Banner Accepted!"
 msgstr "橫幅已被接受！"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1863
+#: src/components/_user/notification/notification.frontConfig.tsx:1900
 msgid "Banner gift received"
 msgstr "已收到橫幅禮物"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1861
+#: src/components/_user/notification/notification.frontConfig.tsx:1898
 msgid "Banner gift sent"
 msgstr "已送出橫幅禮物"
 
@@ -1677,7 +1799,7 @@ msgid "Battle"
 msgstr "戰鬥"
 
 #: src/components/_political/event/EventList.tsx:65
-#: src/components/_user/notification/notification.frontConfig.tsx:1947
+#: src/components/_user/notification/notification.frontConfig.tsx:1984
 msgid "Battle ended"
 msgstr "戰鬥已結束"
 
@@ -1738,11 +1860,15 @@ msgstr "比沒有好，對吧？"
 msgid "Bid"
 msgstr ""
 
+#: src/components/_other/shop/skin.frontConfig.tsx:8
+msgid "Birthday Hat for 1st year of Beta"
+msgstr ""
+
 #: src/components/_user/user/UserDropdown.tsx:278
 msgid "Block (hide content)"
 msgstr "黑名單 (隱藏內容)"
 
-#: src/components/_other/shop/skin.frontConfig.tsx:161
+#: src/components/_other/shop/skin.frontConfig.tsx:164
 msgid "Blue Staff"
 msgstr ""
 
@@ -1760,16 +1886,16 @@ msgstr "增加你的產量！"
 msgid "Boots"
 msgstr "靴子"
 
-#: src/components/_military/battle/LootSummaryCard.tsx:104
+#: src/components/_military/battle/LootSummaryCard.tsx:103
 msgid "Bounty"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:844
-#: src/components/_military/battle/BattleSystem.tsx:854
+#: src/components/_military/battle/BattleSystem.tsx:846
+#: src/components/_military/battle/BattleSystem.tsx:856
 msgid "Bounty cooldown"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:830
+#: src/components/_military/battle/BattleSystem.tsx:832
 msgid "Bounty will be available in"
 msgstr ""
 
@@ -1810,15 +1936,15 @@ msgstr "瀏覽組合"
 msgid "Budget"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2027
+#: src/components/_user/notification/notification.frontConfig.tsx:2064
 msgid "Buff ended"
 msgstr "加成已結束"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2025
+#: src/components/_user/notification/notification.frontConfig.tsx:2062
 msgid "Buff expiring soon"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2023
+#: src/components/_user/notification/notification.frontConfig.tsx:2060
 msgid "Buff started"
 msgstr "加成已開始"
 
@@ -1845,6 +1971,10 @@ msgstr "建造一個軍團"
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:31
 msgid "Bunker"
 msgstr "地堡"
+
+#: src/components/_military/mercenaryContract/BuyMercenaryReputationButton.tsx:69
+msgid "Buy <0/>"
+msgstr ""
 
 #. placeholder {0}: law.data.amount ?? 0
 #: src/components/_political/law/law.frontConfig.tsx:408
@@ -1875,6 +2005,10 @@ msgstr "拒絕此薪資調降，你將會離開公司且失去你的 +{0}% 忠�
 
 #: src/components/_military/damageRanking/DamageRankingSides.tsx:150
 msgid "By side"
+msgstr ""
+
+#: src/components/_common/GameRules.tsx:206
+msgid "c. Sexual, explicit or suggestive remarks, comments, images or content"
 msgstr ""
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:26
@@ -1973,7 +2107,7 @@ msgstr "箱子"
 msgid "Cases contain random items. Click to open it!"
 msgstr "箱子內含隨機物品，點擊來打開它！"
 
-#: src/components/_other/shop/skin.frontConfig.tsx:89
+#: src/components/_other/shop/skin.frontConfig.tsx:92
 msgid "Catapult"
 msgstr "投石機"
 
@@ -2100,7 +2234,7 @@ msgstr "公民身分"
 msgid "Citizenship Applications"
 msgstr "公民身分申請"
 
-#: src/components/_military/battle/BattleSystem.tsx:339
+#: src/components/_military/battle/BattleSystem.tsx:341
 msgid "Civil war"
 msgstr "內戰"
 
@@ -2171,8 +2305,8 @@ msgstr "顏色主題"
 msgid "Commander"
 msgstr "指揮官"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1869
-#: src/components/_user/notification/notification.frontConfig.tsx:1882
+#: src/components/_user/notification/notification.frontConfig.tsx:1906
+#: src/components/_user/notification/notification.frontConfig.tsx:1919
 msgid "Commission earned"
 msgstr "已賺取傭金"
 
@@ -2358,26 +2492,26 @@ msgstr "使用它將會增加你的<0>攻擊力</0> {0} 小時。然後減少相
 msgid "Contextual borders"
 msgstr "現況國界"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2014
+#: src/components/_user/notification/notification.frontConfig.tsx:2051
 msgid "Contract cancelled"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2011
+#: src/components/_user/notification/notification.frontConfig.tsx:2048
 msgid "Contract completed"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2017
+#: src/components/_user/notification/notification.frontConfig.tsx:2054
 msgid "Contract expired"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2020
+#: src/components/_user/notification/notification.frontConfig.tsx:2057
 msgid "Contract rolled back"
 msgstr ""
 
 #: src/components/_military/battle/BattleHeader.tsx:312
 #: src/components/_military/battle/BattlesHeader.tsx:43
 #: src/components/_military/battle/BattleSideContractsModal.tsx:47
-#: src/components/_military/battle/LootSummaryCard.tsx:96
+#: src/components/_military/battle/LootSummaryCard.tsx:95
 #: src/components/_political/country/CountryHeader.tsx:132
 msgid "Contracts"
 msgstr ""
@@ -2456,7 +2590,7 @@ msgid "Country Orders"
 msgstr ""
 
 #. placeholder {0}: data.partialPayout
-#: src/components/_user/notification/notification.frontConfig.tsx:1549
+#: src/components/_user/notification/notification.frontConfig.tsx:1567
 msgid "Country paid <0>{0}</0> for damages done."
 msgstr ""
 
@@ -2548,7 +2682,7 @@ msgstr "暴擊傷害"
 msgid "Critical Hit"
 msgstr "暴擊"
 
-#: src/components/_other/shop/skin.frontConfig.tsx:86
+#: src/components/_other/shop/skin.frontConfig.tsx:89
 msgid "Crossbow"
 msgstr "十字弓"
 
@@ -2556,17 +2690,21 @@ msgstr "十字弓"
 msgid "Current Military Unit"
 msgstr "目前所處的軍團"
 
-#: src/components/_military/battle/BattleSystem.tsx:628
+#: src/components/_military/battle/BattleSystem.tsx:630
 msgid "Current tick:"
 msgstr "目前刻："
 
-#: src/components/_military/battle/BattleSystem.tsx:618
+#: src/components/_military/battle/BattleSystem.tsx:620
 msgid "Current total:"
 msgstr "目前總共："
 
 #: src/components/_user/premium/PremiumFeatureList.tsx:98
 msgid "Custom username font"
 msgstr "客製化用戶名稱字體"
+
+#: src/components/_common/GameRules.tsx:212
+msgid "d. Any form of discrimination, racism, xenophobia, antisemitism, homophobia, transphobia and hate speech"
+msgstr ""
 
 #: src/components/_user/mission/MissionsList.tsx:190
 msgid "Daily"
@@ -2576,7 +2714,7 @@ msgstr "每日"
 msgid "Daily maintenance"
 msgstr "每日維護費"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2042
+#: src/components/_user/notification/notification.frontConfig.tsx:2079
 msgid "Daily Missions Reset"
 msgstr "每日任務重置"
 
@@ -2682,7 +2820,7 @@ msgstr "造成更多傷害"
 msgid "Deals some damages"
 msgstr "造成一些傷害"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2028
+#: src/components/_user/notification/notification.frontConfig.tsx:2065
 msgid "Debuff ended"
 msgstr "減益已結束"
 
@@ -2768,7 +2906,7 @@ msgstr ""
 msgid "Demote from Commander"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1999
+#: src/components/_user/notification/notification.frontConfig.tsx:2036
 msgid "Demoted from Commander"
 msgstr "從指揮官降階"
 
@@ -2939,8 +3077,12 @@ msgstr "捐款"
 msgid "Dormitories"
 msgstr "宿舍"
 
-#: src/components/_other/shop/skin.frontConfig.tsx:152
+#: src/components/_other/shop/skin.frontConfig.tsx:155
 msgid "Dragon"
+msgstr ""
+
+#: src/components/_common/GameRules.tsx:218
+msgid "e. Content about ongoing real-world wars and armed conflicts (most notably the Russo-Ukrainian war and the Israeli–Palestinian conflict)"
 msgstr ""
 
 #: src/components/_user/mission/mission.frontConfig.tsx:130
@@ -2996,15 +3138,15 @@ msgstr "編輯員工"
 msgid "Effective:"
 msgstr "效果："
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1906
+#: src/components/_user/notification/notification.frontConfig.tsx:1943
 msgid "Election candidacy open"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1911
+#: src/components/_user/notification/notification.frontConfig.tsx:1948
 msgid "Election ended"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1909
+#: src/components/_user/notification/notification.frontConfig.tsx:1946
 msgid "Election vote open"
 msgstr ""
 
@@ -3058,11 +3200,11 @@ msgstr "啟用公司"
 msgid "Enacting cost"
 msgstr "施行費用"
 
-#: src/components/_other/shop/skin.frontConfig.tsx:185
+#: src/components/_other/shop/skin.frontConfig.tsx:188
 msgid "Enchanted Trousers"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:737
+#: src/components/_military/battle/BattleSystem.tsx:739
 msgid "Ended"
 msgstr "已結束"
 
@@ -3125,8 +3267,8 @@ msgstr "錯誤"
 msgid "Estimated benefit per"
 msgstr "預估收益每個"
 
-#: src/components/_military/battle/BattleSystem.tsx:460
-#: src/components/_military/battle/BattleSystem.tsx:497
+#: src/components/_military/battle/BattleSystem.tsx:462
+#: src/components/_military/battle/BattleSystem.tsx:499
 msgid "Estimated minimum time for this side to win the current round if all ticks are won."
 msgstr ""
 
@@ -3180,6 +3322,18 @@ msgstr "過期於"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:217
 msgid "Exploit Finder"
+msgstr ""
+
+#: src/components/_common/GameRules.tsx:146
+msgid "Exploited accounts will be permanently banned and the boosted account will receive a temporary ban, fine, or permanent ban if repeated."
+msgstr ""
+
+#: src/components/_common/GameRules.tsx:93
+msgid "Exploiting or ignoring bugs for personal gain is forbidden. All players are expected to report any discovered bugs and avoid taking advantage of them."
+msgstr ""
+
+#: src/components/_common/GameRules.tsx:225
+msgid "f. Glorification/apology of hateful ideologies such as nazism, neo-nazism, fascism, terrorism and terrorist groups and movements (considered as such by the United Nations, the European Union or France), genocide denial, war crimes, or crimes against humanity, Putinism and communism"
 msgstr ""
 
 #: src/components/_user/apiToken/ApiTokenList.tsx:92
@@ -3246,27 +3400,27 @@ msgstr "極端共和主義"
 msgid "Farmer"
 msgstr ""
 
-#: src/components/_other/shop/skin.frontConfig.tsx:143
+#: src/components/_other/shop/skin.frontConfig.tsx:146
 msgid "Farmer Boots"
 msgstr ""
 
-#: src/components/_other/shop/skin.frontConfig.tsx:140
+#: src/components/_other/shop/skin.frontConfig.tsx:143
 msgid "Farmer Chest"
 msgstr ""
 
-#: src/components/_other/shop/skin.frontConfig.tsx:149
+#: src/components/_other/shop/skin.frontConfig.tsx:152
 msgid "Farmer Gloves"
 msgstr ""
 
-#: src/components/_other/shop/skin.frontConfig.tsx:137
+#: src/components/_other/shop/skin.frontConfig.tsx:140
 msgid "Farmer Helmet"
 msgstr ""
 
-#: src/components/_other/shop/skin.frontConfig.tsx:134
+#: src/components/_other/shop/skin.frontConfig.tsx:137
 msgid "Farmer Knife"
 msgstr ""
 
-#: src/components/_other/shop/skin.frontConfig.tsx:146
+#: src/components/_other/shop/skin.frontConfig.tsx:149
 msgid "Farmer Pants"
 msgstr ""
 
@@ -3384,7 +3538,7 @@ msgstr "開除政府成員"
 msgid "Fire worker?"
 msgstr "開除員工？"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1918
+#: src/components/_user/notification/notification.frontConfig.tsx:1955
 msgid "Fired from government"
 msgstr "從政府被開除"
 
@@ -3396,7 +3550,7 @@ msgstr "魚"
 msgid "Flags"
 msgstr "旗幟"
 
-#: src/components/_other/shop/skin.frontConfig.tsx:155
+#: src/components/_other/shop/skin.frontConfig.tsx:158
 msgid "Flail"
 msgstr ""
 
@@ -3428,6 +3582,10 @@ msgstr "免費每日獎勵"
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:27
 msgid "Fun fact: The house always wins"
 msgstr "冷知識：莊家永遠是贏的"
+
+#: src/components/_common/GameRules.tsx:234
+msgid "g. The use of profiles (picture, description, name) related to aforementioned ideologies and movements as well as political figures linked to ongoing real-world wars and armed conflicts. Humoristic names, descriptions and pictures are tolerated, with the exception of any content related to nazism and neo-nazism."
+msgstr ""
 
 #: src/components/_user/user/Level.tsx:91
 msgid "Gain <0>Xp</0> by finishing your missions!"
@@ -3506,7 +3664,7 @@ msgstr "給你的 token 一個描述，這樣你待會才能識別它"
 msgid "Giveaway Winner"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2040
+#: src/components/_user/notification/notification.frontConfig.tsx:2077
 msgid "Giveaway Won!"
 msgstr "贏得了抽獎！"
 
@@ -3548,7 +3706,7 @@ msgstr "政府"
 msgid "Government Member"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:804
+#: src/components/_military/battle/BattleSystem.tsx:806
 msgid "Government penalty"
 msgstr ""
 
@@ -3568,7 +3726,7 @@ msgstr "經緯格線"
 msgid "Great job! Hit a few more times to help your side win the battle."
 msgstr "做得好！再攻擊多次一點來幫助你這邊獲得勝利。"
 
-#: src/components/_other/shop/skin.frontConfig.tsx:158
+#: src/components/_other/shop/skin.frontConfig.tsx:161
 msgid "Green Staff"
 msgstr ""
 
@@ -3576,43 +3734,43 @@ msgstr ""
 msgid "Grimdark"
 msgstr ""
 
-#: src/components/_other/shop/skin.frontConfig.tsx:215
+#: src/components/_other/shop/skin.frontConfig.tsx:218
 msgid "Grimdark Ammo"
 msgstr ""
 
-#: src/components/_other/shop/skin.frontConfig.tsx:227
+#: src/components/_other/shop/skin.frontConfig.tsx:230
 msgid "Grimdark Boots"
 msgstr ""
 
-#: src/components/_other/shop/skin.frontConfig.tsx:224
+#: src/components/_other/shop/skin.frontConfig.tsx:227
 msgid "Grimdark Chest"
 msgstr ""
 
-#: src/components/_other/shop/skin.frontConfig.tsx:233
+#: src/components/_other/shop/skin.frontConfig.tsx:236
 msgid "Grimdark Gloves"
 msgstr ""
 
-#: src/components/_other/shop/skin.frontConfig.tsx:197
+#: src/components/_other/shop/skin.frontConfig.tsx:200
 msgid "Grimdark Gun"
 msgstr ""
 
-#: src/components/_other/shop/skin.frontConfig.tsx:218
+#: src/components/_other/shop/skin.frontConfig.tsx:221
 msgid "Grimdark Heavy Ammo"
 msgstr ""
 
-#: src/components/_other/shop/skin.frontConfig.tsx:221
+#: src/components/_other/shop/skin.frontConfig.tsx:224
 msgid "Grimdark Helmet"
 msgstr ""
 
-#: src/components/_other/shop/skin.frontConfig.tsx:209
+#: src/components/_other/shop/skin.frontConfig.tsx:212
 msgid "Grimdark Jet"
 msgstr ""
 
-#: src/components/_other/shop/skin.frontConfig.tsx:194
+#: src/components/_other/shop/skin.frontConfig.tsx:197
 msgid "Grimdark Knife"
 msgstr ""
 
-#: src/components/_other/shop/skin.frontConfig.tsx:212
+#: src/components/_other/shop/skin.frontConfig.tsx:215
 msgid "Grimdark Light Ammo"
 msgstr ""
 
@@ -3620,19 +3778,19 @@ msgstr ""
 msgid "Grimdark Pack"
 msgstr ""
 
-#: src/components/_other/shop/skin.frontConfig.tsx:230
+#: src/components/_other/shop/skin.frontConfig.tsx:233
 msgid "Grimdark Pants"
 msgstr ""
 
-#: src/components/_other/shop/skin.frontConfig.tsx:200
+#: src/components/_other/shop/skin.frontConfig.tsx:203
 msgid "Grimdark Rifle"
 msgstr ""
 
-#: src/components/_other/shop/skin.frontConfig.tsx:203
+#: src/components/_other/shop/skin.frontConfig.tsx:206
 msgid "Grimdark Sniper"
 msgstr ""
 
-#: src/components/_other/shop/skin.frontConfig.tsx:206
+#: src/components/_other/shop/skin.frontConfig.tsx:209
 msgid "Grimdark Tank"
 msgstr ""
 
@@ -3640,7 +3798,7 @@ msgstr ""
 msgid "Ground"
 msgstr "優勢點"
 
-#: src/components/_military/battle/BattleSystem.tsx:667
+#: src/components/_military/battle/BattleSystem.tsx:669
 msgid "ground per tick"
 msgstr "每刻優勢點"
 
@@ -3652,7 +3810,11 @@ msgstr "優勢點"
 msgid "Gun"
 msgstr "槍"
 
-#: src/components/_other/shop/skin.frontConfig.tsx:236
+#: src/components/_common/GameRules.tsx:243
+msgid "h. Glorification, promotion or encouragement of rule-breaking or cheating"
+msgstr ""
+
+#: src/components/_other/shop/skin.frontConfig.tsx:239
 msgid "Hamster Tank"
 msgstr ""
 
@@ -3711,7 +3873,7 @@ msgid "Hit <0>{count}</0> times in battles"
 msgstr "在戰鬥中攻擊 <0>{count}</0> 次"
 
 #. placeholder {0}: staticGameConfig.battle.govMemberBountyRewardPercent
-#: src/components/_military/battle/BattleSystem.tsx:806
+#: src/components/_military/battle/BattleSystem.tsx:808
 msgid "Hitting for your own country while in government gives {0}% bounty efficiency."
 msgstr ""
 
@@ -3737,6 +3899,10 @@ msgstr "我可以感受到下一個就是神話裝備！"
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:28
 msgid "I heard buying premium boost your chances :3"
 msgstr "我聽說買訂閱會增加你的機率 :3"
+
+#: src/components/_common/GameRules.tsx:249
+msgid "i. Promotion of other games, products, or services"
+msgstr ""
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:81
 msgid "I'm proud of you"
@@ -3856,6 +4022,10 @@ msgstr ""
 msgid "Initiate"
 msgstr "新兵"
 
+#: src/components/_common/GameRules.tsx:37
+msgid "Intentional or repeated violations of this policy will result in a permanent ban."
+msgstr ""
+
 #: src/components/_layout/LayoutMenu.tsx:125
 #: src/components/_user/user/MyAvatar.tsx:35
 #: src/components/_user/user/UserHeader.tsx:157
@@ -3890,7 +4060,7 @@ msgstr "它只會越來越好...應該吧"
 msgid "It will not gain any production and its workers will not be able to work."
 msgstr "它不會獲得任何產能，且它的員工不能工作。"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1891
+#: src/components/_user/notification/notification.frontConfig.tsx:1928
 msgid "Item bought"
 msgstr "已購買物品"
 
@@ -3900,6 +4070,10 @@ msgstr "裝備市場"
 
 #: src/components/_user/user/WealthPanel.tsx:49
 msgid "Items"
+msgstr ""
+
+#: src/components/_common/GameRules.tsx:252
+msgid "j. Spam and repeated messages"
 msgstr ""
 
 #: src/pages/companies.tsx:32
@@ -3951,6 +4125,10 @@ msgstr "加入一個新工作會讓你離開現在的！"
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:22
 msgid "Just 1 more..."
 msgstr "再 1 個..."
+
+#: src/components/_common/GameRules.tsx:274
+msgid "Just because something isn't explicitly stated in the rules does not mean you can abuse it. Attempts to bypass rules or exploit loopholes will still be punished."
+msgstr ""
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:50
 msgid "Just one more… what could go wrong?"
@@ -4040,7 +4218,7 @@ msgid "Law failed"
 msgstr "法案失敗"
 
 #: src/components/_political/law/LawFormModal.tsx:76
-#: src/components/_user/notification/notification.frontConfig.tsx:1904
+#: src/components/_user/notification/notification.frontConfig.tsx:1941
 msgid "Law proposed"
 msgstr "法案已提出"
 
@@ -4105,7 +4283,7 @@ msgstr ""
 msgid "Level up your skills!"
 msgstr "提升你的技能！"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1851
+#: src/components/_user/notification/notification.frontConfig.tsx:1888
 msgid "Level up!"
 msgstr "升級！"
 
@@ -4202,7 +4380,7 @@ msgstr "地點"
 msgid "Logout"
 msgstr "登出"
 
-#: src/components/_other/shop/skin.frontConfig.tsx:83
+#: src/components/_other/shop/skin.frontConfig.tsx:86
 msgid "Long Sword"
 msgstr "長劍"
 
@@ -4219,7 +4397,7 @@ msgstr "獲取箱子"
 msgid "Loot chance"
 msgstr "戰利品機率"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1967
+#: src/components/_user/notification/notification.frontConfig.tsx:2004
 msgid "Loot reward"
 msgstr ""
 
@@ -4227,7 +4405,7 @@ msgstr ""
 msgid "Loots"
 msgstr ""
 
-#: src/components/_other/shop/skin.frontConfig.tsx:20
+#: src/components/_other/shop/skin.frontConfig.tsx:23
 msgid "Love Paper Jet"
 msgstr "愛的紙飛機"
 
@@ -4243,7 +4421,7 @@ msgstr "中將"
 msgid "Luck is finally on payroll"
 msgstr "幸運終於來上班了"
 
-#: src/components/_other/shop/skin.frontConfig.tsx:188
+#: src/components/_other/shop/skin.frontConfig.tsx:191
 msgid "Mage Robe"
 msgstr ""
 
@@ -4320,23 +4498,23 @@ msgstr "或許下次吧 ^^"
 msgid "Medieval"
 msgstr "中世紀"
 
-#: src/components/_other/shop/skin.frontConfig.tsx:65
+#: src/components/_other/shop/skin.frontConfig.tsx:68
 msgid "Medieval Boots"
 msgstr "中世紀靴子"
 
-#: src/components/_other/shop/skin.frontConfig.tsx:59
+#: src/components/_other/shop/skin.frontConfig.tsx:62
 msgid "Medieval Chest"
 msgstr "中世紀胸甲"
 
-#: src/components/_other/shop/skin.frontConfig.tsx:68
+#: src/components/_other/shop/skin.frontConfig.tsx:71
 msgid "Medieval Gloves"
 msgstr "中世紀手套"
 
-#: src/components/_other/shop/skin.frontConfig.tsx:56
+#: src/components/_other/shop/skin.frontConfig.tsx:59
 msgid "Medieval Helmet"
 msgstr "中世紀頭盔"
 
-#: src/components/_other/shop/skin.frontConfig.tsx:74
+#: src/components/_other/shop/skin.frontConfig.tsx:77
 msgid "Medieval Iron Arrow"
 msgstr "中世紀鐵箭"
 
@@ -4344,19 +4522,19 @@ msgstr "中世紀鐵箭"
 msgid "Medieval Pack"
 msgstr "中世紀包"
 
-#: src/components/_other/shop/skin.frontConfig.tsx:62
+#: src/components/_other/shop/skin.frontConfig.tsx:65
 msgid "Medieval Pants"
 msgstr "中世紀褲子"
 
-#: src/components/_other/shop/skin.frontConfig.tsx:80
+#: src/components/_other/shop/skin.frontConfig.tsx:83
 msgid "Medieval Spear"
 msgstr "中世紀矛"
 
-#: src/components/_other/shop/skin.frontConfig.tsx:77
+#: src/components/_other/shop/skin.frontConfig.tsx:80
 msgid "Medieval Steel Arrow"
 msgstr "中世紀鋼箭"
 
-#: src/components/_other/shop/skin.frontConfig.tsx:71
+#: src/components/_other/shop/skin.frontConfig.tsx:74
 msgid "Medieval Stone Arrow"
 msgstr "中世紀石箭"
 
@@ -4385,7 +4563,7 @@ msgstr ""
 msgid "Members"
 msgstr "成員"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2035
+#: src/components/_user/notification/notification.frontConfig.tsx:2072
 msgid "Mentioned in message"
 msgstr "在訊息中提及"
 
@@ -4396,7 +4574,7 @@ msgstr ""
 
 #: src/pages/country/[countryId]/contracts.tsx:25
 #: src/pages/country/[countryId]/index.tsx:380
-#: src/pages/mu/[muId]/contracts.tsx:24
+#: src/pages/mu/[muId]/contracts.tsx:25
 msgid "Mercenary Contracts"
 msgstr ""
 
@@ -4404,7 +4582,7 @@ msgstr ""
 msgid "Mercenary contracts are currently disabled."
 msgstr ""
 
-#: src/components/_military/battle/LootSummaryCard.tsx:90
+#: src/components/_military/battle/LootSummaryCard.tsx:89
 msgid "Mercenary earnings"
 msgstr ""
 
@@ -4416,7 +4594,7 @@ msgstr ""
 msgid "Message (Optional)"
 msgstr "訊息 (選填)"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2033
+#: src/components/_user/notification/notification.frontConfig.tsx:2070
 msgid "Message liked"
 msgstr "已按讚訊息"
 
@@ -4445,7 +4623,7 @@ msgstr "軍事法案"
 msgid "Military Rank"
 msgstr "軍階"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1946
+#: src/components/_user/notification/notification.frontConfig.tsx:1983
 msgid "Military Rank Up!"
 msgstr "軍階提升！"
 
@@ -4583,7 +4761,7 @@ msgstr "移動公司"
 msgid "Move to top"
 msgstr "至頂"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1887
+#: src/components/_user/notification/notification.frontConfig.tsx:1924
 msgid "Moved to a new company"
 msgstr "移動至一個新公司"
 
@@ -4592,19 +4770,19 @@ msgstr "移動至一個新公司"
 msgid "MU"
 msgstr "軍團"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1986
+#: src/components/_user/notification/notification.frontConfig.tsx:2023
 msgid "MU Application Accepted"
 msgstr "軍團申請已被接受"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1983
+#: src/components/_user/notification/notification.frontConfig.tsx:2020
 msgid "MU Application Rejected"
 msgstr "軍團申請已被拒絕"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2005
+#: src/components/_user/notification/notification.frontConfig.tsx:2042
 msgid "MU Donation Received"
 msgstr "已收到軍團捐款"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1991
+#: src/components/_user/notification/notification.frontConfig.tsx:2028
 msgid "MU Level Up!"
 msgstr ""
 
@@ -4616,7 +4794,7 @@ msgstr ""
 msgid "MU Orders"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2002
+#: src/components/_user/notification/notification.frontConfig.tsx:2039
 msgid "MU Ownership Transferred"
 msgstr "已轉移軍團所有權"
 
@@ -4629,7 +4807,7 @@ msgstr ""
 msgid "MU Tournament Winner"
 msgstr ""
 
-#: src/components/_military/battle/LootSummaryCard.tsx:121
+#: src/components/_military/battle/LootSummaryCard.tsx:122
 msgid "My battle loot"
 msgstr ""
 
@@ -4674,13 +4852,17 @@ msgstr "神話裝備？！你的帳號一定有被保佑"
 msgid "Name"
 msgstr "名稱"
 
-#: src/components/_military/battle/BattleSystem.tsx:792
+#: src/components/_military/battle/BattleSystem.tsx:794
 msgid "National bounty"
 msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:56
 msgid "Need a job?"
 msgstr "需要一個工作？"
+
+#: src/components/_military/mercenaryContract/BuyMercenaryReputationButton.tsx:47
+msgid "Negative mercenary reputation"
+msgstr ""
 
 #: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:173
 msgid "Net benefit:"
@@ -4704,15 +4886,15 @@ msgstr "最新"
 msgid "New API Token Created"
 msgstr "已創建新的 API token"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1898
+#: src/components/_user/notification/notification.frontConfig.tsx:1935
 msgid "New article"
 msgstr "新文章"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1900
+#: src/components/_user/notification/notification.frontConfig.tsx:1937
 msgid "New comment"
 msgstr "新留言"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2008
+#: src/components/_user/notification/notification.frontConfig.tsx:2045
 msgid "New contract accepted"
 msgstr ""
 
@@ -4734,11 +4916,11 @@ msgstr "新工作職缺"
 msgid "New location"
 msgstr "新地點"
 
-#: src/components/_military/mercenaryContract/MercenaryAuctionList.tsx:121
+#: src/components/_military/mercenaryContract/MercenaryAuctionList.tsx:123
 msgid "New Mercenary Auction"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2029
+#: src/components/_user/notification/notification.frontConfig.tsx:2066
 msgid "New message"
 msgstr ""
 
@@ -4746,7 +4928,7 @@ msgstr ""
 msgid "New military unit"
 msgstr "新軍團"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1989
+#: src/components/_user/notification/notification.frontConfig.tsx:2026
 msgid "New MU Application"
 msgstr "新的軍團申請"
 
@@ -4754,28 +4936,28 @@ msgstr "新的軍團申請"
 msgid "New name"
 msgstr "新名字"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1941
+#: src/components/_user/notification/notification.frontConfig.tsx:1978
 msgid "New Party Application"
 msgstr "新政黨申請"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1930
+#: src/components/_user/notification/notification.frontConfig.tsx:1967
 msgid "New Party Leader"
 msgstr "新黨主席"
 
 #: src/components/_political/event/EventList.tsx:66
-#: src/components/_user/notification/notification.frontConfig.tsx:1913
+#: src/components/_user/notification/notification.frontConfig.tsx:1950
 msgid "New president"
 msgstr "新總統"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1944
+#: src/components/_user/notification/notification.frontConfig.tsx:1981
 msgid "New referred user"
 msgstr "新推薦的用戶"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1945
+#: src/components/_user/notification/notification.frontConfig.tsx:1982
 msgid "New referrer"
 msgstr "新推薦人"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1903
+#: src/components/_user/notification/notification.frontConfig.tsx:1940
 msgid "New subscriber"
 msgstr "新訂閱者"
 
@@ -4783,7 +4965,7 @@ msgstr "新訂閱者"
 msgid "New supporters"
 msgstr "新支持者們"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1884
+#: src/components/_user/notification/notification.frontConfig.tsx:1921
 msgid "New worker"
 msgstr "新員工"
 
@@ -4808,7 +4990,7 @@ msgstr "下個將會是坦克"
 msgid "Next reward"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:604
+#: src/components/_military/battle/BattleSystem.tsx:606
 msgid "Next tick"
 msgstr "下刻"
 
@@ -4884,7 +5066,7 @@ msgstr "尚無捐款"
 msgid "No ground ranking yet."
 msgstr "還沒有優勢點排名。"
 
-#: src/components/_political/law/LawList.tsx:65
+#: src/components/_political/law/LawList.tsx:66
 msgid "No laws yet"
 msgstr "還沒有法案"
 
@@ -4892,11 +5074,11 @@ msgstr "還沒有法案"
 msgid "No members in this military unit."
 msgstr ""
 
-#: src/components/_military/mercenaryContract/MercenaryAuctionList.tsx:144
+#: src/components/_military/mercenaryContract/MercenaryAuctionList.tsx:146
 msgid "No mercenary auctions"
 msgstr ""
 
-#: src/components/_military/mercenaryContract/MercenaryContractList.tsx:96
+#: src/components/_military/mercenaryContract/MercenaryContractList.tsx:98
 msgid "No mercenary contracts"
 msgstr ""
 
@@ -4978,13 +5160,17 @@ msgstr "指派"
 msgid "Nominate a {title}"
 msgstr "指派 {title}"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1915
+#: src/components/_user/notification/notification.frontConfig.tsx:1952
 msgid "Nominated at government"
 msgstr "被指派進入政府"
 
 #: src/components/_political/law/LawFormModal.tsx:270
 msgid "Normal"
 msgstr "普通"
+
+#: src/components/_common/GameRules.tsx:140
+msgid "Not all forms of helping are treated as boosting or exploiting; the intent will be assessed in line with the list provided above."
+msgstr ""
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:40
 msgid "Not bad!"
@@ -5221,11 +5407,11 @@ msgstr "政黨"
 msgid "Party"
 msgstr "政黨"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1935
+#: src/components/_user/notification/notification.frontConfig.tsx:1972
 msgid "Party Application Accepted"
 msgstr "政黨申請已被通過"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1938
+#: src/components/_user/notification/notification.frontConfig.tsx:1975
 msgid "Party Application Rejected"
 msgstr "政黨申請已被駁回"
 
@@ -5249,15 +5435,15 @@ msgstr "政黨中常委選舉已在 <0/> 開放"
 msgid "Party created"
 msgstr "政黨已創箭"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1921
+#: src/components/_user/notification/notification.frontConfig.tsx:1958
 msgid "Party election candidacy open"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1927
+#: src/components/_user/notification/notification.frontConfig.tsx:1964
 msgid "Party election ended"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1924
+#: src/components/_user/notification/notification.frontConfig.tsx:1961
 msgid "Party election vote open"
 msgstr ""
 
@@ -5353,6 +5539,14 @@ msgstr "藥丸"
 msgid "Plant a tree in the data center"
 msgstr "在資料中心種一棵樹"
 
+#: src/components/_common/GameRules.tsx:31
+msgid "Players are limited to a single account. Creating multiple accounts or using someone else's account for any reason is strictly prohibited."
+msgstr ""
+
+#: src/components/_common/GameRules.tsx:49
+msgid "Players can share an IP address if they have been registered as a \"Family Group\". This status must be requested in advance to an admin on our Discord. Group members are prohibited from:"
+msgstr ""
+
 #: src/components/_user/auth/ConnectFromModal.tsx:93
 #: src/components/_user/auth/ConnectFromModal.tsx:113
 #: src/components/_user/auth/ConnectFromModal.tsx:190
@@ -5376,6 +5570,10 @@ msgstr "政治法案"
 msgid "Political motions"
 msgstr "政治提案"
 
+#: src/components/_common/GameRules.tsx:166
+msgid "Political Take Overs (PTOs) are permitted, but misusing it to extract a country's resources for personal/another country's gain, to damage the country or to intentionally distort market conditions is a punishable offense, which will include fines, bans, and removal from government roles. This goes for Military Units as well."
+msgstr ""
+
 #: src/components/_user/notification/notificationPrefs.categories.ts:156
 msgid "Politics & Government"
 msgstr ""
@@ -5397,23 +5595,23 @@ msgstr "高級帳號"
 msgid "Premium & Gifts"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1852
+#: src/components/_user/notification/notification.frontConfig.tsx:1889
 msgid "Premium activated"
 msgstr "已啟用高級帳號"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1853
+#: src/components/_user/notification/notification.frontConfig.tsx:1890
 msgid "Premium expired"
 msgstr "高級帳號已過期"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1859
+#: src/components/_user/notification/notification.frontConfig.tsx:1896
 msgid "Premium gift expired"
 msgstr "高級帳號禮物已過期"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1856
+#: src/components/_user/notification/notification.frontConfig.tsx:1893
 msgid "Premium gift received"
 msgstr "已收到高級帳號禮物"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1854
+#: src/components/_user/notification/notification.frontConfig.tsx:1891
 msgid "Premium gift sent"
 msgstr "已送出高級帳號禮物"
 
@@ -5449,7 +5647,7 @@ msgstr "總統選舉"
 msgid "Primary election"
 msgstr "初選"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1932
+#: src/components/_user/notification/notification.frontConfig.tsx:1969
 msgid "Primary Election Ended"
 msgstr "初選已結束"
 
@@ -5517,7 +5715,7 @@ msgstr "生產加成："
 msgid "Production in<0/> is full, you should start production!"
 msgstr "<0/> 的生產點數已滿，你應該開始生產！"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1893
+#: src/components/_user/notification/notification.frontConfig.tsx:1930
 msgid "Production is full"
 msgstr "生產點數已滿"
 
@@ -5538,7 +5736,7 @@ msgstr "個人檔案"
 msgid "Promote to Commander"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1996
+#: src/components/_user/notification/notification.frontConfig.tsx:2033
 msgid "Promoted to Commander"
 msgstr "晉升為指揮官"
 
@@ -5609,7 +5807,11 @@ msgstr "提議減薪"
 msgid "Propositions"
 msgstr "提案"
 
-#: src/components/_other/shop/skin.frontConfig.tsx:164
+#: src/components/_common/GameRules.tsx:286
+msgid "Punishments, along with their reasoning, are visible on user profiles. Players may appeal through the official Discord server, where detailed explanations and evidence will be provided. Rule violations can be reported with supporting evidence."
+msgstr ""
+
+#: src/components/_other/shop/skin.frontConfig.tsx:167
 msgid "Purple Staff"
 msgstr ""
 
@@ -5630,7 +5832,7 @@ msgstr "快速拆解物品"
 msgid "Ranking"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1943
+#: src/components/_user/notification/notification.frontConfig.tsx:1980
 msgid "Ranking reward"
 msgstr ""
 
@@ -5734,7 +5936,7 @@ msgstr "推薦地區"
 msgid "Recruit"
 msgstr "徵召兵"
 
-#: src/components/_other/shop/skin.frontConfig.tsx:167
+#: src/components/_other/shop/skin.frontConfig.tsx:170
 msgid "Red Staff"
 msgstr ""
 
@@ -5792,7 +5994,7 @@ msgstr "地區"
 msgid "Region buy offer"
 msgstr "地區購買提案"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1959
+#: src/components/_user/notification/notification.frontConfig.tsx:1996
 msgid "Region is revolting!"
 msgstr "地區正在叛亂！"
 
@@ -5902,7 +6104,7 @@ msgstr "移除宿敵"
 msgid "Remove the current party leader from their position"
 msgstr "移除現任黨主席"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1993
+#: src/components/_user/notification/notification.frontConfig.tsx:2030
 msgid "Removed from Military Unit"
 msgstr "被移出軍團"
 
@@ -5946,6 +6148,10 @@ msgstr "共和主義"
 
 #: src/components/_military/mercenaryContract/MercenaryReputationTooltip.tsx:34
 msgid "Reputation decays 20% toward 0 every week (minimum 1 point)."
+msgstr ""
+
+#: src/components/_military/mercenaryContract/BuyMercenaryReputationButton.tsx:26
+msgid "Reputation purchased!"
 msgstr ""
 
 #: src/components/_user/user/UserDropdown.tsx:335
@@ -6005,7 +6211,7 @@ msgstr "資源"
 msgid "Resources reshuffled"
 msgstr "資源已重新分布"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2031
+#: src/components/_user/notification/notification.frontConfig.tsx:2068
 msgid "Response to message"
 msgstr "回應訊息"
 
@@ -6021,7 +6227,7 @@ msgstr "將地區歸還給原屬國"
 msgid "Revoke API token?"
 msgstr "廢除 API token?"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1962
+#: src/components/_user/notification/notification.frontConfig.tsx:1999
 msgid "Revolt started!"
 msgstr "叛亂開始！"
 
@@ -6033,7 +6239,7 @@ msgstr "叛亂已結束"
 msgid "Revolution started"
 msgstr "叛亂已開始"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1965
+#: src/components/_user/notification/notification.frontConfig.tsx:2002
 msgid "Revolution started!"
 msgstr "叛亂已開始！"
 
@@ -6086,16 +6292,16 @@ msgstr "回合 #{0}"
 msgid "Round <0>#{0}</0> in <1/> is about to end!"
 msgstr "<1/> 的回合 Round <0>#{0}</0> 即將結束！"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1950
+#: src/components/_user/notification/notification.frontConfig.tsx:1987
 msgid "Round about to end"
 msgstr "回合即將結束"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1948
+#: src/components/_user/notification/notification.frontConfig.tsx:1985
 msgid "Round ended"
 msgstr "回合已結束"
 
-#: src/components/_military/battle/BattleSystem.tsx:458
-#: src/components/_military/battle/BattleSystem.tsx:495
+#: src/components/_military/battle/BattleSystem.tsx:460
+#: src/components/_military/battle/BattleSystem.tsx:497
 msgid "Round ETA"
 msgstr ""
 
@@ -6253,7 +6459,7 @@ msgstr "賣單"
 msgid "Sell price:"
 msgstr "賣出價格："
 
-#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:150
+#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:152
 msgid "sells"
 msgstr "賣出"
 
@@ -6442,15 +6648,15 @@ msgstr "技能可以讓你變得更強。讓我們加強你的能力吧！"
 msgid "Skills saved!"
 msgstr "技能已儲存！"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1873
+#: src/components/_user/notification/notification.frontConfig.tsx:1910
 msgid "Skin gift received"
 msgstr "已收到造型禮物"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1871
+#: src/components/_user/notification/notification.frontConfig.tsx:1908
 msgid "Skin gift sent"
 msgstr "已送出造型禮物"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1876
+#: src/components/_user/notification/notification.frontConfig.tsx:1913
 msgid "Skin pack gift sent"
 msgstr "已送出造型組合包禮物"
 
@@ -6462,7 +6668,7 @@ msgstr "造型組合包已解鎖！所有造型已裝備！"
 msgid "Skin Packs"
 msgstr "造型組合包"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2047
+#: src/components/_user/notification/notification.frontConfig.tsx:2084
 msgid "Skin Reward"
 msgstr ""
 
@@ -6511,7 +6717,7 @@ msgstr "特產"
 msgid "Specialization item"
 msgstr "特產物品"
 
-#: src/components/_other/shop/skin.frontConfig.tsx:191
+#: src/components/_other/shop/skin.frontConfig.tsx:194
 msgid "Spellcaster Gloves"
 msgstr ""
 
@@ -6753,8 +6959,8 @@ msgstr "稅種"
 msgid "Taxes"
 msgstr "稅金"
 
-#: src/components/_military/mercenaryContract/MercenaryAuctionList.tsx:138
-#: src/components/_military/mercenaryContract/MercenaryContractList.tsx:89
+#: src/components/_military/mercenaryContract/MercenaryAuctionList.tsx:140
+#: src/components/_military/mercenaryContract/MercenaryContractList.tsx:91
 msgid "Terminated"
 msgstr ""
 
@@ -6796,12 +7002,12 @@ msgid "The civil war started by <0/> in <1/> has succeeded of <2/> and the gover
 msgstr "<0/> 在 <1/> 開始的內戰已成功 <2/> 且政府已被驅逐。"
 
 #. placeholder {0}: data.refund
-#: src/components/_user/notification/notification.frontConfig.tsx:1587
+#: src/components/_user/notification/notification.frontConfig.tsx:1605
 msgid "The contract for <0/> has expired. <1>{0}</1> returned to <2/>."
 msgstr ""
 
 #. placeholder {0}: data.moneyRolledBack
-#: src/components/_user/notification/notification.frontConfig.tsx:1605
+#: src/components/_user/notification/notification.frontConfig.tsx:1623
 msgid "The contract has been rolled back. <0>{0}</0> sent back to <1/>."
 msgstr ""
 
@@ -6847,11 +7053,15 @@ msgstr "你的隊伍 <0/> 參與的錦標賽已結束，點擊查看比賽結果
 msgid "The universe owes you something big"
 msgstr "這個宇宙欠了你一份大人情"
 
+#: src/components/_common/GameRules.tsx:73
+msgid "The use of bots, scripts, or any form of automation to gain an advantage over other players is strictly forbidden. This includes, but is not limited to, web scraping and creating scripts that bypass the game intended functionality or restrictions."
+msgstr ""
+
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:132
 msgid "This action will submit your MU bid for this contract."
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:793
+#: src/components/_military/battle/BattleSystem.tsx:795
 msgid "This bounty is reserved for nationals only."
 msgstr ""
 
@@ -6924,39 +7134,39 @@ msgstr "該來生產了！"
 msgid "Tiny Pixel"
 msgstr "Tiny Pixel"
 
-#: src/components/_other/shop/skin.frontConfig.tsx:95
+#: src/components/_other/shop/skin.frontConfig.tsx:98
 msgid "Tiny Pixel Ammo"
 msgstr "Tiny Pixel Ammo"
 
-#: src/components/_other/shop/skin.frontConfig.tsx:107
+#: src/components/_other/shop/skin.frontConfig.tsx:110
 msgid "Tiny Pixel Boots"
 msgstr "Tiny Pixel Boots"
 
-#: src/components/_other/shop/skin.frontConfig.tsx:104
+#: src/components/_other/shop/skin.frontConfig.tsx:107
 msgid "Tiny Pixel Chest"
 msgstr "Tiny Pixel Chest"
 
-#: src/components/_other/shop/skin.frontConfig.tsx:113
+#: src/components/_other/shop/skin.frontConfig.tsx:116
 msgid "Tiny Pixel Gloves"
 msgstr "Tiny Pixel Gloves"
 
-#: src/components/_other/shop/skin.frontConfig.tsx:116
+#: src/components/_other/shop/skin.frontConfig.tsx:119
 msgid "Tiny Pixel Gun"
 msgstr "Tiny Pixel Gun"
 
-#: src/components/_other/shop/skin.frontConfig.tsx:98
+#: src/components/_other/shop/skin.frontConfig.tsx:101
 msgid "Tiny Pixel Heavy Ammo"
 msgstr "Tiny Pixel Heavy Ammo"
 
-#: src/components/_other/shop/skin.frontConfig.tsx:101
+#: src/components/_other/shop/skin.frontConfig.tsx:104
 msgid "Tiny Pixel Helmet"
 msgstr "Tiny Pixel Helmet"
 
-#: src/components/_other/shop/skin.frontConfig.tsx:128
+#: src/components/_other/shop/skin.frontConfig.tsx:131
 msgid "Tiny Pixel Jet"
 msgstr "Tiny Pixel Jet"
 
-#: src/components/_other/shop/skin.frontConfig.tsx:131
+#: src/components/_other/shop/skin.frontConfig.tsx:134
 msgid "Tiny Pixel Light Ammo"
 msgstr "Tiny Pixel Light Ammo"
 
@@ -6964,19 +7174,19 @@ msgstr "Tiny Pixel Light Ammo"
 msgid "Tiny Pixel Pack"
 msgstr "Tiny Pixel Pack"
 
-#: src/components/_other/shop/skin.frontConfig.tsx:110
+#: src/components/_other/shop/skin.frontConfig.tsx:113
 msgid "Tiny Pixel Pants"
 msgstr "Tiny Pixel Pants"
 
-#: src/components/_other/shop/skin.frontConfig.tsx:119
+#: src/components/_other/shop/skin.frontConfig.tsx:122
 msgid "Tiny Pixel Rifle"
 msgstr "Tiny Pixel Rifle"
 
-#: src/components/_other/shop/skin.frontConfig.tsx:122
+#: src/components/_other/shop/skin.frontConfig.tsx:125
 msgid "Tiny Pixel Sniper"
 msgstr "Tiny Pixel Sniper"
 
-#: src/components/_other/shop/skin.frontConfig.tsx:125
+#: src/components/_other/shop/skin.frontConfig.tsx:128
 msgid "Tiny Pixel Tank"
 msgstr "Tiny Pixel Tank"
 
@@ -6992,15 +7202,15 @@ msgstr "給文章小費"
 msgid "Token Name"
 msgstr "Token 名稱"
 
-#: src/components/_other/shop/skin.frontConfig.tsx:176
+#: src/components/_other/shop/skin.frontConfig.tsx:179
 msgid "Tome of Flames"
 msgstr ""
 
-#: src/components/_other/shop/skin.frontConfig.tsx:173
+#: src/components/_other/shop/skin.frontConfig.tsx:176
 msgid "Tome of Storms"
 msgstr ""
 
-#: src/components/_other/shop/skin.frontConfig.tsx:170
+#: src/components/_other/shop/skin.frontConfig.tsx:173
 msgid "Tome of Tides"
 msgstr ""
 
@@ -7057,7 +7267,7 @@ msgstr "本月送禮數最多者"
 msgid "Top of the hill"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:658
+#: src/components/_military/battle/BattleSystem.tsx:660
 msgid "total"
 msgstr "總共"
 
@@ -7102,15 +7312,15 @@ msgstr "總和："
 msgid "Tournament"
 msgstr "錦標賽"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1973
+#: src/components/_user/notification/notification.frontConfig.tsx:2010
 msgid "Tournament Created"
 msgstr "錦標賽已創建"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1980
+#: src/components/_user/notification/notification.frontConfig.tsx:2017
 msgid "Tournament Eliminated"
 msgstr "錦標賽中遭淘汰"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1978
+#: src/components/_user/notification/notification.frontConfig.tsx:2015
 msgid "Tournament Ended"
 msgstr "錦標賽已結束"
 
@@ -7118,15 +7328,15 @@ msgstr "錦標賽已結束"
 msgid "Tournament reward:"
 msgstr "錦標賽獎勵："
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1969
+#: src/components/_user/notification/notification.frontConfig.tsx:2006
 msgid "Tournament round won!"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1976
+#: src/components/_user/notification/notification.frontConfig.tsx:2013
 msgid "Tournament Started"
 msgstr "錦標賽已開始"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1971
+#: src/components/_user/notification/notification.frontConfig.tsx:2008
 msgid "Tournament Won!"
 msgstr "錦標賽獲勝！"
 
@@ -7139,7 +7349,7 @@ msgstr "交易"
 msgid "Trading"
 msgstr "交易"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1896
+#: src/components/_user/notification/notification.frontConfig.tsx:1933
 msgid "Trading transaction"
 msgstr ""
 
@@ -7178,7 +7388,7 @@ msgstr ""
 msgid "Translator"
 msgstr ""
 
-#: src/components/_other/shop/skin.frontConfig.tsx:92
+#: src/components/_other/shop/skin.frontConfig.tsx:95
 msgid "Trebuchet"
 msgstr "大型投石機"
 
@@ -7228,7 +7438,7 @@ msgstr "解鎖一鍵幫助"
 msgid "Unlock Produce all button"
 msgstr "解鎖一鍵生產"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1879
+#: src/components/_user/notification/notification.frontConfig.tsx:1916
 msgid "Unlocked pack"
 msgstr "已解鎖組合包"
 
@@ -7429,43 +7639,43 @@ msgstr ""
 msgid "UwU"
 msgstr "UwU"
 
-#: src/components/_other/shop/skin.frontConfig.tsx:8
+#: src/components/_other/shop/skin.frontConfig.tsx:11
 msgid "Valentine Ammo"
 msgstr "情人節子彈"
 
-#: src/components/_other/shop/skin.frontConfig.tsx:47
+#: src/components/_other/shop/skin.frontConfig.tsx:50
 msgid "Valentine Boots"
 msgstr "情人節靴子"
 
-#: src/components/_other/shop/skin.frontConfig.tsx:26
+#: src/components/_other/shop/skin.frontConfig.tsx:29
 msgid "Valentine Cat Ears"
 msgstr "情人節貓耳"
 
-#: src/components/_other/shop/skin.frontConfig.tsx:29
+#: src/components/_other/shop/skin.frontConfig.tsx:32
 msgid "Valentine Chest"
 msgstr "情人節胸甲"
 
-#: src/components/_other/shop/skin.frontConfig.tsx:53
+#: src/components/_other/shop/skin.frontConfig.tsx:56
 msgid "Valentine Gloves"
 msgstr "情人節手套"
 
-#: src/components/_other/shop/skin.frontConfig.tsx:41
+#: src/components/_other/shop/skin.frontConfig.tsx:44
 msgid "Valentine Gun"
 msgstr "情人節槍"
 
-#: src/components/_other/shop/skin.frontConfig.tsx:14
+#: src/components/_other/shop/skin.frontConfig.tsx:17
 msgid "Valentine Heavy Ammo"
 msgstr "情人節重型子彈"
 
-#: src/components/_other/shop/skin.frontConfig.tsx:35
+#: src/components/_other/shop/skin.frontConfig.tsx:38
 msgid "Valentine Knife"
 msgstr "情人節小刀"
 
-#: src/components/_other/shop/skin.frontConfig.tsx:11
+#: src/components/_other/shop/skin.frontConfig.tsx:14
 msgid "Valentine Light Ammo"
 msgstr "情人節輕型子彈"
 
-#: src/components/_other/shop/skin.frontConfig.tsx:38
+#: src/components/_other/shop/skin.frontConfig.tsx:41
 msgid "Valentine Lollipop"
 msgstr "情人節棒棒糖"
 
@@ -7473,25 +7683,29 @@ msgstr "情人節棒棒糖"
 msgid "Valentine Pack"
 msgstr "情人節組合包"
 
-#: src/components/_other/shop/skin.frontConfig.tsx:32
+#: src/components/_other/shop/skin.frontConfig.tsx:35
 msgid "Valentine Pants"
 msgstr "情人節靴子"
 
-#: src/components/_other/shop/skin.frontConfig.tsx:44
+#: src/components/_other/shop/skin.frontConfig.tsx:47
 msgid "Valentine Rifle"
 msgstr "情人節來福槍"
 
-#: src/components/_other/shop/skin.frontConfig.tsx:23
+#: src/components/_other/shop/skin.frontConfig.tsx:26
 msgid "Valentine Skirt"
 msgstr "情人節裙子"
 
-#: src/components/_other/shop/skin.frontConfig.tsx:50
+#: src/components/_other/shop/skin.frontConfig.tsx:53
 msgid "Valentine Sniper"
 msgstr "情人節狙擊槍"
 
-#: src/components/_other/shop/skin.frontConfig.tsx:17
+#: src/components/_other/shop/skin.frontConfig.tsx:20
 msgid "Valentine Tank"
 msgstr "情人節坦克"
+
+#: src/components/_common/GameRules.tsx:99
+msgid "Valuable contributions will be recognized with the \"Bug Finder\" badge."
+msgstr ""
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:56
 msgid "Vanguard"
@@ -7544,7 +7758,7 @@ msgstr "VS"
 msgid "Wage"
 msgstr "薪資"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1889
+#: src/components/_user/notification/notification.frontConfig.tsx:1926
 msgid "Wage changed"
 msgstr "薪資已更改"
 
@@ -7560,7 +7774,7 @@ msgstr "每點生產點數/薪資"
 msgid "Wage reduction accepted."
 msgstr "已接受調降薪資。"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1890
+#: src/components/_user/notification/notification.frontConfig.tsx:1927
 #: src/components/_user/worker/WageReductionAlert.tsx:66
 msgid "Wage reduction proposed"
 msgstr "提議調降薪資"
@@ -7578,7 +7792,7 @@ msgstr "等待達到等級 {0}"
 msgid "Waiting for the worker to accept or reject the wage reduction. You cannot change the wage until they respond."
 msgstr "在員工同意或拒絕接受降薪之前，你無法更改其薪資。"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:150
+#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:152
 msgid "wants"
 msgstr "需求"
 
@@ -7637,7 +7851,7 @@ msgstr "每週收支"
 msgid "Weekly damages"
 msgstr "每週傷害"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2045
+#: src/components/_user/notification/notification.frontConfig.tsx:2082
 msgid "Weekly Missions Reset"
 msgstr "每週任務重置"
 
@@ -7662,6 +7876,10 @@ msgstr "歡迎來到資本世界！"
 msgid "When your <0>Health</0> runs out, open this menu to restore it with food."
 msgstr "當你的 <0>生命值</0> 用盡時，開啟此選單即可透過食物恢復"
 
+#: src/components/_common/GameRules.tsx:80
+msgid "While data collection and display tools that use the official public API are allowed, for any other development or data access, please contact the staff team directly."
+msgstr ""
+
 #: src/pages/companies.tsx:102
 msgid "Whole Production"
 msgstr "所有產量"
@@ -7683,7 +7901,7 @@ msgstr "有加成 + 忠誠度"
 msgid "With bounty"
 msgstr ""
 
-#: src/components/_other/shop/skin.frontConfig.tsx:182
+#: src/components/_other/shop/skin.frontConfig.tsx:185
 msgid "Wizard Hat"
 msgstr ""
 
@@ -7708,7 +7926,7 @@ msgstr "賺錢養國！"
 msgid "Worker fired!"
 msgstr "員工已解雇！"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1885
+#: src/components/_user/notification/notification.frontConfig.tsx:1922
 msgid "Worker left"
 msgstr "員工離職"
 
@@ -7730,7 +7948,7 @@ msgid "Wow congratulations! Anyway have you considered buying premium?"
 msgstr "恭喜你啦！啊你有想試試高級方案嗎？"
 
 #: src/components/_political/law/LawFormModal.tsx:168
-#: src/components/_political/law/LawList.tsx:51
+#: src/components/_political/law/LawList.tsx:52
 msgid "Write a law"
 msgstr "制定法案"
 
@@ -7741,6 +7959,10 @@ msgstr "三小啦"
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:79
 msgid "Wtf is this possible?"
 msgstr "這他媽怎麼可能？"
+
+#: src/components/_common/GameRules.tsx:283
+msgid "X. Punishments and Appeals"
+msgstr ""
 
 #: src/components/_user/user/UserRankingsPanel.tsx:44
 msgid "XP"
@@ -7833,15 +8055,15 @@ msgstr "若你已有政府/國會的職位，不能申請公民身分"
 msgid "You don't have permission to view applications."
 msgstr "你沒有權限瀏覽申請。"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1473
+#: src/components/_user/notification/notification.frontConfig.tsx:1490
 msgid "You earned gems from a banner sale!"
 msgstr "你因橫幅售出獲得了寶石"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1797
+#: src/components/_user/notification/notification.frontConfig.tsx:1834
 msgid "You earned gems from a sale of \"{skinTitle}\"!"
 msgstr "你因 \"{skinTitle}\" 售出獲得了寶石！"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1799
+#: src/components/_user/notification/notification.frontConfig.tsx:1836
 msgid "You earned gems from a skin pack sale!"
 msgstr "你因造型組合包獲得了寶石！"
 
@@ -7968,7 +8190,7 @@ msgstr ""
 msgid "You received a reward for {0} {1} in<0/> tier in the ranking <1/>"
 msgstr "你因 <1/> 中 {0} {1} 屬於 <0/> 級別獲得獎勵"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1817
+#: src/components/_user/notification/notification.frontConfig.tsx:1854
 msgid "You received the skin \"{skinTitle}\"!"
 msgstr ""
 
@@ -7981,7 +8203,7 @@ msgstr "你出售了物品。"
 msgid "You successfully gifted \"{0}\" to <0/>!"
 msgstr "你已成功贈送 \"{0}\" 給 <0/> ！"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1661
+#: src/components/_user/notification/notification.frontConfig.tsx:1679
 msgid "You successfully gifted \"{skinTitle}\" to <0/>!"
 msgstr "你已成功贈送 \"{skinTitle}\" 給 <0/> ！"
 
@@ -7990,7 +8212,7 @@ msgid "You successfully gifted a premium subscription to <0/>!"
 msgstr "你成功向 <0/> 贈送了一個高級訂閱！"
 
 #. placeholder {0}: data.skinPackTitle
-#: src/components/_user/notification/notification.frontConfig.tsx:1725
+#: src/components/_user/notification/notification.frontConfig.tsx:1743
 msgid "You successfully gifted the skin pack \"{0}\" to <0/>!"
 msgstr "你已成功贈送造型組合包 \"{0}\" 給 <0/> ！"
 
@@ -8014,8 +8236,8 @@ msgstr "你已被 <0/> 從政府中革職"
 msgid "You were an alpha tester (user before 20 march 2025)"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1912
-#: src/components/_user/notification/notification.frontConfig.tsx:1929
+#: src/components/_user/notification/notification.frontConfig.tsx:1949
+#: src/components/_user/notification/notification.frontConfig.tsx:1966
 msgid "You were elected"
 msgstr "你當選了"
 
@@ -8122,7 +8344,7 @@ msgid "Your article reached 2% of the active population in score (min 10)"
 msgstr ""
 
 #. placeholder {0}: data.bannerTitle
-#: src/components/_user/notification/notification.frontConfig.tsx:1486
+#: src/components/_user/notification/notification.frontConfig.tsx:1504
 msgid "Your banner \"{0}\" has been accepted and is now available in the shop! It has been automatically unlocked for you."
 msgstr "你的橫幅 \"{0}\" 已被接受且現在已上架商店！它已向你自動解鎖。"
 
@@ -8138,11 +8360,11 @@ msgstr "你將改變國籍"
 msgid "Your country"
 msgstr "你的國家"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1953
+#: src/components/_user/notification/notification.frontConfig.tsx:1990
 msgid "Your country is under attack!"
 msgstr "你的國家正遭到攻擊！"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1956
+#: src/components/_user/notification/notification.frontConfig.tsx:1993
 msgid "Your country launched an attack!"
 msgstr "你的國家發起了進攻！"
 
@@ -8154,11 +8376,11 @@ msgstr "你的國家在<0/>開始反抗<1/>"
 msgid "Your current job"
 msgstr "你當前的工作"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:141
+#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:143
 msgid "Your current order"
 msgstr "你當前的訂單"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1635
+#: src/components/_user/notification/notification.frontConfig.tsx:1653
 msgid "Your daily missions have been reset! Complete them to earn rewards."
 msgstr "你的每日任務已重置，完成它們以賺取獎勵！"
 
@@ -8207,6 +8429,10 @@ msgstr "你的好運罷工了"
 msgid "Your military unit name"
 msgstr "你的軍團名稱"
 
+#: src/components/_military/mercenaryContract/BuyMercenaryReputationButton.tsx:50
+msgid "Your MU has <0/> reputation and cannot bid on mercenary contracts. Pay to buy back reputation (once per day)."
+msgstr ""
+
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:223
 msgid "Your MU must have enough money to cover the acceptance fee to bid. Payment is only deducted if you win, and refunded on contract completion."
 msgstr ""
@@ -8253,7 +8479,7 @@ msgstr "你的隊伍："
 msgid "Your wage in <0/> changed from <1>{0}</1> to <2>{1}</2>"
 msgstr "你在 <0/> 的薪資已從 <1>{0}</1> 改變為 <2>{1}</2>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1647
+#: src/components/_user/notification/notification.frontConfig.tsx:1665
 msgid "Your weekly missions have been reset! Complete them to earn rewards."
 msgstr "你的每週任務已重置，完成它們以賺取獎勵！"
 
